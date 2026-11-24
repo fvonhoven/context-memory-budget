@@ -1,0 +1,5676 @@
+{
+  "recordedAt": "2026-11-19T20:46:33.388Z",
+  "note": "live run with claude-sonnet-4-5",
+  "entries": [
+    {
+      "requestHash": "e8f7a72680c7e6b4",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3496,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "05eef0cc0ab14d85",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3496,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "b6a5995bc742e898",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3518,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "fa6d6a114bcb6376",
+      "response": {
+        "text": "Fly.io",
+        "inputTokens": 3518,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "c839090ad688f057",
+      "response": {
+        "text": "November 4",
+        "inputTokens": 3505,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "d738ad95fdd58361",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3507,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "3eb6e8c69fbad6c3",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3459,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "296ae03588a3be14",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3457,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "18aa60c0a83aed62",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3434,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "17b1c77ca7889f45",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3432,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "6bca656dd8a3fc18",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3446,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "6e884d56418ff750",
+      "response": {
+        "text": "Node 22 on Alpine Linux.",
+        "inputTokens": 3448,
+        "outputTokens": 11,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "d646b629fed010fd",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3511,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "f7ca9e28a535508f",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3510,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "b830c3f7dab2c58f",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3454,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "ba92d67cef24b9b2",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3456,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "e62ac16f483e7d13",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3426,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "680fcf8a164a355a",
+      "response": {
+        "text": "Bramble Studio, a small design agency with three people.",
+        "inputTokens": 3426,
+        "outputTokens": 16,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "c72eb42c4a2be693",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3485,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "ed3cf949ddb5651f",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3485,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "48cca0cf13593232",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3413,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "c9e107aecf911cf8",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3450,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "8c68435fe8433f8c",
+      "response": {
+        "text": "Not stated.",
+        "inputTokens": 3738,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "6eae1dc791ebb2e8",
+      "response": {
+        "text": "9 Cedar Court",
+        "inputTokens": 3737,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "d1dc0bf9fc64932d",
+      "response": {
+        "text": "40317",
+        "inputTokens": 3690,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "1a2fa205d2122247",
+      "response": {
+        "text": "March 2.",
+        "inputTokens": 3691,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "d6b5fc23c6a112fa",
+      "response": {
+        "text": "March 9.",
+        "inputTokens": 3692,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "e6747ca03101864d",
+      "response": {
+        "text": "555-0142",
+        "inputTokens": 3690,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "1856f88f1c2cf50a",
+      "response": {
+        "text": "Mornings, before noon.",
+        "inputTokens": 3727,
+        "outputTokens": 10,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "cd1f34738d988e46",
+      "response": {
+        "text": "$79 standard rate, reduced to $63.20 for six months with the SPRING20 promo, plus $10 for static IP and the Stream Basic TV package fee.",
+        "inputTokens": 3726,
+        "outputTokens": 43,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "993ab5172d6d8074",
+      "response": {
+        "text": "SPRING20",
+        "inputTokens": 3726,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "32073eede6853ce1",
+      "response": {
+        "text": "Eero 6",
+        "inputTokens": 3658,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "d1611ab6413426ec",
+      "response": {
+        "text": "$10 a month.",
+        "inputTokens": 3657,
+        "outputTokens": 9,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "5d03e4ca8fdaef30",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3660,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "fb6fcf9c644f2102",
+      "response": {
+        "text": "940 Mbps",
+        "inputTokens": 3676,
+        "outputTokens": 9,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "42f1a9266306ca63",
+      "response": {
+        "text": "m.reyes@example.net",
+        "inputTokens": 3673,
+        "outputTokens": 11,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "6267f53c4cf0ad03",
+      "response": {
+        "text": "The initial credit was $25, and an additional goodwill credit was approved but the amount was not stated.",
+        "inputTokens": 3674,
+        "outputTokens": 26,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "1e4bd624f4a58109",
+      "response": {
+        "text": "1.1.1.1 for both primary and secondary, though you said you would add a different secondary.",
+        "inputTokens": 3673,
+        "outputTokens": 28,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "fb917e465d907165",
+      "response": {
+        "text": "Stream Basic.",
+        "inputTokens": 3673,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "016c48f7e9da9486",
+      "response": {
+        "text": "4471",
+        "inputTokens": 3677,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "e2a8ee106565623b",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3672,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "ad178dfb96c5b451",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3672,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "207cc498d33175c5",
+      "response": {
+        "text": "Portugal",
+        "inputTokens": 3772,
+        "outputTokens": 4,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "1fa07cddf7b1415f",
+      "response": {
+        "text": "12 days, May 10 to May 21.",
+        "inputTokens": 3772,
+        "outputTokens": 17,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "d5569bbff2075af6",
+      "response": {
+        "text": "$5,200",
+        "inputTokens": 3783,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "f1edb8f2741c86bd",
+      "response": {
+        "text": "May 21st.",
+        "inputTokens": 3784,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "98bec30acd182b71",
+      "response": {
+        "text": "Your sister Meera.",
+        "inputTokens": 3831,
+        "outputTokens": 9,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "5c4ae4fe96f1d2c6",
+      "response": {
+        "text": "Hotel Avenida Palace, five nights.",
+        "inputTokens": 3835,
+        "outputTokens": 13,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "a766d969f0eb4805",
+      "response": {
+        "text": "Sixt, picked up in Porto.",
+        "inputTokens": 3798,
+        "outputTokens": 12,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "f18aa6ddbaa9849e",
+      "response": {
+        "text": "Three nights in the city plus one night in the Douro Valley, so four nights total in the Porto area.",
+        "inputTokens": 3798,
+        "outputTokens": 27,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "4aea4df58672f2fe",
+      "response": {
+        "text": "World Nomads",
+        "inputTokens": 3874,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "64c8721238b46151",
+      "response": {
+        "text": "TAP Air Portugal with one connection each way.",
+        "inputTokens": 3873,
+        "outputTokens": 13,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "06d8c345c84f49f5",
+      "response": {
+        "text": "Aisle.",
+        "inputTokens": 3812,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "3794600ed943c9e3",
+      "response": {
+        "text": "Sintra.",
+        "inputTokens": 3816,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "dd336383d103f097",
+      "response": {
+        "text": "Douro Valley.",
+        "inputTokens": 3849,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "131e5a64bbc50145",
+      "response": {
+        "text": "Airalo eSIM with a Europe data package.",
+        "inputTokens": 3850,
+        "outputTokens": 15,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "5f15637e3ad9d243",
+      "response": {
+        "text": "The Yeatman, across the river with the view.",
+        "inputTokens": 3814,
+        "outputTokens": 16,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "7efbf738d49b7f10",
+      "response": {
+        "text": "TP 267 from Porto, early morning.",
+        "inputTokens": 3813,
+        "outputTokens": 14,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "31ab44863c97792c",
+      "response": {
+        "text": "Porto airport, on flight TP 267 early morning on May 21.",
+        "inputTokens": 3831,
+        "outputTokens": 20,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "141841891e043604",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3838,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "d7b87d0246cb2026",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3833,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "709ecc575e0628fd",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1409,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "be1239d810b996fa",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1409,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "51c368efa496183a",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1408,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "f3c573ca81c041c7",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1408,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "125f26a53d1bf728",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1392,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "44c943fb6df9d685",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1394,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "7f846c1c99726fe3",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1369,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "04e2f0b31e5f253d",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1367,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "f193bf20e2d6ffeb",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1380,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "485ac56a63ff32d1",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1378,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "5c61ebd359a73cf3",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1399,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "5c97f2f523a222a4",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1401,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "89f1a7e55438e6b5",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1324,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "cf1d1919e51aefe4",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1323,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "bff682592773b7fb",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1279,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "2df0774d0732964e",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1281,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "7e929e7442168e2a",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1241,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "22531f5f6cfd8f39",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1241,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "b89acf1877e432ba",
+      "response": {
+        "text": "Okafor",
+        "inputTokens": 1120,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "ca2391989f9964b2",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1120,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "8259bca88e96a9c0",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1069,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "17ebb843f50350b6",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 946,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "0900b303c6e55e68",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1228,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "58ccd4e58bafb86a",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1227,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "184f1291905e28ff",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1105,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "89f6d03f28406213",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1106,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "f7b5cda315b376e3",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1105,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "525781a69497f07f",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1103,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "0c22cec568149c35",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1007,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "11c85d0de46ec8a1",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1006,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "26128cd35c98d144",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1006,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "439aebbfd3c3f3de",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 904,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "71877e255f21b100",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 903,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "54a7ed7a032a8208",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 906,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "2be8baf51dfc73d4",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 766,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "96cb42f65d5c0f11",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 763,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "7222607ccfcbe2d5",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 764,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "c660f30ecf5ee45b",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 763,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "ecc219bba350a8e4",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 763,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "5b9c32c35c0959db",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 767,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "9fd1ee8bae04d9df",
+      "response": {
+        "text": "NF-88214",
+        "inputTokens": 762,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "232d622a768bf6dc",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 762,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "2acc69a87e4c92ca",
+      "response": {
+        "text": "Portugal",
+        "inputTokens": 1298,
+        "outputTokens": 4,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "ba5efe79428614f6",
+      "response": {
+        "text": "Not stated.",
+        "inputTokens": 1298,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "b7b9bc08c08846e8",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1292,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "e2605a9f0e3e0675",
+      "response": {
+        "text": "Not stated - you told me the return flight number (TP 267) but not the specific date.",
+        "inputTokens": 1293,
+        "outputTokens": 25,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "0e285e5333c818d1",
+      "response": {
+        "text": "Meera is traveling with you.",
+        "inputTokens": 1162,
+        "outputTokens": 11,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "80c798598cdab359",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1166,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "caa0fc95a3a6e2f9",
+      "response": {
+        "text": "Sixt, picked up in Porto.",
+        "inputTokens": 1107,
+        "outputTokens": 12,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "1c4f38de4d82d38f",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1107,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "4f907a3519f6b3c0",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1032,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "a21b606022b073be",
+      "response": {
+        "text": "TAP Air Portugal (TP 267 from Porto).",
+        "inputTokens": 1031,
+        "outputTokens": 16,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "6dbb6d585d389c29",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 993,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "f536e78237934cc5",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 997,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "4f447a5a9f92ee60",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 893,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "95ed40ade795439b",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 894,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "6d66ec4d61fb9d6a",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 853,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "2b4400b0616b6a4d",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 852,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "9f4d29ec27d84fe9",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 747,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "4eecf84cd445ed17",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 754,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "e5fa96e45632d287",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 749,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "c56ab3286ca3bf01",
+      "response": {
+        "text": "**Summary:**\n\n(t1) User name: Dana Okafor.\n(t1) Project name: Ledgerline, an invoicing app for freelancers.\n(t1) Repository name: ledgerline-api.\n(t1) Language preference: TypeScript for all examples.\n(t2) Recommended folder structure: src/http for route handlers, src/domain for invoice and customer logic (no framework imports), src/db for schema and queries, src/jobs for off-request-path tasks (PDF rendering, reminder emails).\n(t3) Database: PostgreSQL 16, running locally in Docker and on managed instance for staging.\n(t4) Invoice totals: store them but compute in domain layer from line items, persist with tax rule version.\n(t4) Money column type: numeric(14,2) in database.\n(t4) Domain representation: integer cents, convert to decimal at boundary.\n(t5) ORM: Drizzle.\n(t6) Invoice table columns: id (uuid), customerId (uuid), number (text, unique), status (text, default 'draft'), currency (text), subtotalCents (integer), taxCents (integer), totalCents (integer), issuedAt (timestamp with timezone), dueAt (timestamp with timezone).\n(t6) Line items table columns: id (uuid), invoiceId (uuid, foreign key to invoices.id), description (text), quantity (numeric 10,3), unitCents (integer), position (integer).\n(t6) Recommended index: (invoice_id, position) on line_items.\n(t7) Deploy target: Render (web service and managed database).\n(t8) Health checks: two endpoints—liveness (returns 200 if process up) and readiness (SELECT 1 against database with timeout under 2 seconds, returns JSON with dependency statuses).\n(t8) Readiness should not depend on third-party APIs like payment provider.\n(t9) Launch date: October 14 (approximately six weeks from conversation start).\n(t10) Development priority order: 1) invoice lifecycle (create draft, add line items, finalize, mark paid manually), 2) payments, 3) PDF generation in background job.\n(t10) Six-week plan: week 1 lifecycle and tests, week 2 auth and customer management, weeks 3-4 payments including webhooks, week 5 PDFs and email, week 6 hardening/staging/launch checklist (no new features).\n(t11) Payment provider: Stripe.\n(t11) Payment method: hosted checkout initially, possibly payment links later.\n(t12) Stripe integration: create checkout session server-side with invoice total, currency, and invoice id in metadata; handle checkout.session.completed webhook event; verify webhook signature using raw request body; mark invoice paid in transaction with payment id; make handler idempotent; store all incoming events in table before processing; do not trust redirect as proof of payment.",
+        "inputTokens": 1590,
+        "outputTokens": 683,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "b082b7fab239d342",
+      "response": {
+        "text": "**Summary:**\n\n(t1) User name: Dana Okafor.\n(t1) Project name: Ledgerline, an invoicing app for freelancers.\n(t1) Repository name: ledgerline-api.\n(t1) Language preference: TypeScript for all examples.\n(t2) Recommended folder structure: src/http for route handlers, src/domain for invoice and customer logic (no framework imports), src/db for schema and queries, src/jobs for off-request-path tasks (PDF rendering, reminder emails).\n(t3) Database: PostgreSQL 16, running locally in Docker and on managed instance for staging.\n(t4) Invoice totals: store them but compute in domain layer from line items, persist with tax rule version.\n(t4) Money column type: numeric(14,2) in database.\n(t4) Domain representation: integer cents, convert to decimal at boundary.\n(t5) ORM: Drizzle.\n(t6) Invoice table columns: id (uuid), customerId (uuid), number (text, unique), status (text, default 'draft'), currency (text), subtotalCents (integer), taxCents (integer), totalCents (integer), issuedAt (timestamp with timezone), dueAt (timestamp with timezone).\n(t6) Line items table columns: id (uuid), invoiceId (uuid, foreign key to invoices.id), description (text), quantity (numeric 10,3), unitCents (integer), position (integer).\n(t6) Recommended index: (invoice_id, position) on line_items.\n(t7) Deploy target: Render (web service and managed database).\n(t8) Health checks: two endpoints—liveness (returns 200 if process up) and readiness (SELECT 1 against database with timeout under 2 seconds, returns JSON with dependency statuses).\n(t8) Readiness should not depend on third-party APIs like payment provider.\n(t9) Launch date: October 14 (approximately six weeks from conversation start).\n(t10) Development priority order: 1) invoice lifecycle (create draft, add line items, finalize, mark paid manually), 2) payments, 3) PDF generation in background job.\n(t10) Six-week plan: week 1 lifecycle and tests, week 2 auth and customer management, weeks 3-4 payments including webhooks, week 5 PDFs and email, week 6 hardening/staging/launch checklist (no new features).\n(t11) Payment provider: Stripe.\n(t11) Payment method: hosted checkout initially, possibly payment links later.\n(t12) Stripe integration: create checkout session server-side with invoice total, currency, and invoice id in metadata; handle checkout.session.completed webhook event; verify webhook signature using raw request body; mark invoice paid in transaction with payment id; make handler idempotent; store all incoming events in table before processing; do not trust redirect as proof of payment.\n(t13) Test runner: Vitest.\n(t14) Domain tests: *.test.ts suffix, import pure functions, run on every save.\n(t14) Integration tests: *.int.test.ts suffix, separate config, run against real database, truncate tables between tests or wrap in transaction and roll back.\n(t14) Invoice state machine tests: table driven tests with (fromStatus, action, expectedStatus or expectedError) rows.\n(t14) Totals tests: property style tests with random line items checking invariants.\n(t15) Staging URL: staging.ledgerline.app.\n(t16) Staging environment: same container image, same database engine version, same environment variable names with different values, same deploy process as production.\n(t16) Payment provider keys: test mode keys on staging, real keys in production, selected by environment variable.\n(t16) Staging data: seed with small realistic dataset from committed script.\n(t16) Staging UI: visible banner or distinct favicon to distinguish from production.\n(t16) Smoke tests: run same test against staging after deploy as will run against production.\n(t17) API rate limit: 120 requests per minute per API key.\n(t18) Rate limiting: token bucket per key with capacity 120 and refill 2 per second, state in cache or in-process map.\n(t18) Rate limit response: 429 with Retry-After header and JSON body.\n(t18) Webhook endpoint: exempt from per",
+        "inputTokens": 2069,
+        "outputTokens": 1024,
+        "stopReason": "max_tokens"
+      }
+    },
+    {
+      "requestHash": "f81ba8ecca6840ac",
+      "response": {
+        "text": "**Summary:**\n\n(t1) User name: Dana Okafor.\n(t1) Project name: Ledgerline, an invoicing app for freelancers.\n(t1) Repository name: ledgerline-api.\n(t1) Language preference: TypeScript for all examples.\n(t2) Recommended folder structure: src/http for route handlers, src/domain for invoice and customer logic (no framework imports), src/db for schema and queries, src/jobs for off-request-path tasks (PDF rendering, reminder emails).\n(t3) Database: PostgreSQL 16, running locally in Docker and on managed instance for staging.\n(t4) Invoice totals: store them but compute in domain layer from line items, persist with tax rule version.\n(t4) Money column type: numeric(14,2) in database.\n(t4) Domain representation: integer cents, convert to decimal at boundary.\n(t5) ORM: Drizzle.\n(t6) Invoice table columns: id (uuid), customerId (uuid), number (text, unique), status (text, default 'draft'), currency (text), subtotalCents (integer), taxCents (integer), totalCents (integer), issuedAt (timestamp with timezone), dueAt (timestamp with timezone).\n(t6) Line items table columns: id (uuid), invoiceId (uuid, foreign key to invoices.id), description (text), quantity (numeric 10,3), unitCents (integer), position (integer).\n(t6) Recommended index: (invoice_id, position) on line_items.\n(t7) Deploy target: Render (web service and managed database).\n(t8) Health checks: two endpoints—liveness (returns 200 if process up) and readiness (SELECT 1 against database with timeout under 2 seconds, returns JSON with dependency statuses).\n(t8) Readiness should not depend on third-party APIs like payment provider.\n(t9) Launch date: October 14 (approximately six weeks from conversation start).\n(t10) Development priority order: 1) invoice lifecycle (create draft, add line items, finalize, mark paid manually), 2) payments, 3) PDF generation in background job.\n(t10) Six-week plan: week 1 lifecycle and tests, week 2 auth and customer management, weeks 3-4 payments including webhooks, week 5 PDFs and email, week 6 hardening/staging/launch checklist (no new features).\n(t11) Payment provider: Stripe.\n(t11) Payment method: hosted checkout initially, possibly payment links later.\n(t12) Stripe integration: create checkout session server-side with invoice total, currency, and invoice id in metadata; handle checkout.session.completed webhook event; verify webhook signature using raw request body; mark invoice paid in transaction with payment id; make handler idempotent; store all incoming events in table before processing; do not trust redirect as proof of payment.\n(t13) Test runner: Vitest.\n(t14) Domain tests: *.test.ts suffix, import pure functions, run on every save.\n(t14) Integration tests: *.int.test.ts suffix, separate config, run against real database, truncate tables between tests or wrap in transaction and roll back.\n(t14) Invoice state machine tests: table driven tests with (fromStatus, action, expectedStatus or expectedError) rows.\n(t14) Totals tests: property style tests with random line items checking invariants.\n(t15) Staging URL: staging.ledgerline.app.\n(t16) Staging environment: same container image, same database engine version, same environment variable names with different values, same deploy process as production.\n(t16) Payment provider keys: test mode keys on staging, real keys in production, selected by environment variable.\n(t16) Staging data: seed with small realistic dataset from committed script.\n(t16) Staging UI: visible banner or distinct favicon to distinguish from production.\n(t16) Smoke tests: run same test against staging after deploy as will run against production.\n(t17) API rate limit: 120 requests per minute per API key.\n(t18) Rate limiting: token bucket per key with capacity 120 and refill 2 per second, state in cache or in-process map.\n(t18) Rate limit response: 429 with Retry-After header and JSON body.\n(t18) Webhook endpoint: exempt from rate",
+        "inputTokens": 2396,
+        "outputTokens": 1024,
+        "stopReason": "max_tokens"
+      }
+    },
+    {
+      "requestHash": "9901baf8c0e7dff1",
+      "response": {
+        "text": "Yes, add a seats or users concept. Create a users table with columns: id (uuid), accountId (uuid, foreign key), email (text, unique), role (text), invitedAt (timestamp with timezone), acceptedAt (timestamp with timezone, nullable). Add an accounts table if you do not have one yet: id (uuid), name (text), subscriptionStatus (text), billingEmail (text), seatCount (integer), createdAt (timestamp with timezone). Foreign key invoices.customerId and users.accountId both reference accounts.id. Track active seat count so you can enforce limits and calculate the bill. When a user accepts an invite, increment the count; when removed, decrement it. Store subscription state from Stripe in the accounts table: subscriptionId (text), currentPeriodEnd (timestamp with timezone). Sync subscription changes from Stripe webhooks (customer.subscription.updated, customer.subscription.deleted) the same way you sync payment events. Gate invoice creation behind a seat limit check in the domain layer so free accounts cannot create invoices until they subscribe.",
+        "inputTokens": 2391,
+        "outputTokens": 236,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "ea0d241c877769f8",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 2731,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "697bd5de0eb0dbaa",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 2731,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "d92a4f549958e1fb",
+      "response": {
+        "text": "- Add users table: id (uuid), accountId (uuid FK), email (text unique), role (text), invitedAt (timestamp with timezone), acceptedAt (timestamp with timezone nullable) (t1)\n- Add accounts table if missing: id (uuid), name (text), subscriptionStatus (text), billingEmail (text), seatCount (integer), createdAt (timestamp with timezone) (t1)\n- Foreign keys invoices.customerId and users.accountId reference accounts.id (t1)\n- Increment active seat count when user accepts invite; decrement when removed (t1)\n- Store subscription state from Stripe: subscriptionId (text), currentPeriodEnd (timestamp with timezone) on accounts table (t1)\n- Sync subscription changes from Stripe webhooks: customer.subscription.updated, customer.subscription.deleted (t1)\n- Gate invoice creation behind seat limit check in domain layer (t1)\n- Enforce seat limit at invite time, not login (t56)\n- Record seat changes with timestamps for proration disputes (t56)\n- Keep free tier or trial as status value (t56)\n- Trial length is 14 days from account creation (t57)\n- When trial ends without subscription: keep invoices readable/downloadable, block creating new invoices and sending, show upgrade path (t58)\n- Send reminder email 3 days before trial end and on the day (t58)\n- Run trial end check in daily job that flips account status (t58)\n- Also check trial status on read so job delay cannot give free days (t58)\n- Store trial end date on account at creation (t58)\n- Make trial end date visible in UI from day one (t58)\n- Status page is status.ledgerline.app (t59)\n- Automate component states from external checks hitting readiness endpoint and synthetic invoice read (t60)\n- Keep incident write ups manual (t60)\n- Host status page on separate infrastructure from app (t60)\n- Show last 90 days uptime per component (t60)\n- Backup schedule: nightly at 02:00 UTC (t61)\n- Point in time recovery enabled on managed database (t61)\n- Schedule monthly restore into scratch database with invoice count and totals check (t62)\n- Keep snapshot retention at least 30 days (t62)\n- Copy nightly snapshot to another region (t62)\n- Back up object storage for PDFs or enable versioning (t62)\n- Write restore steps in repo (t62)\n- API version header is X-Ledger-Version with date value (t63)\n- List all version behavior changes in one file with date, description, and transform function (t64)\n- Apply version transforms in HTTP layer only (t64)\n- Default to version from account creation date (t64)\n- Log version each request used (t64)\n- Write changelog entry before code (t64)\n- Feature flag service is Unleash, self hosted (t65)\n- Put behind flags: new PDF template, outgoing webhooks feature, new payment flow (t66)\n- Evaluate flags once per request and pass result down (t66)\n- Give every flag an owner and removal date in description (t66)\n- Remove flags fully on in production for over two months (t66)\n- Container base image is node:22-alpine (t67)\n- Bundle fonts and load by path for PDF library (t68)\n- Use multi stage build: install/compile in full image, copy to alpine runtime (t68)\n- Run as non root user with NODE_ENV=production in runtime stage (t68)\n- Pin image digest not just tag, update on schedule (t68)\n- First customer pilot: Bramble Studio, small design agency with three people (t69)\n- Pilot success criteria: every invoice in a month through product, at least one paid through hosted checkout (t70)\n- Answer pilot customer within a working day (t70)\n- Watch funnel events for their account specifically (t70)\n- Short call after week one and week four, document feedback in their words (t70)\n- Do not build features during pilot unless blocker stops success criteria (t70)\n- Offer discount for first year in exchange for feedback and quote (t70)",
+        "inputTokens": 1641,
+        "outputTokens": 973,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "39426faf3284f263",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 2391,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "c48e50edaf1f900b",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 2391,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "f10a97798cc33938",
+      "response": {
+        "text": "November 4",
+        "inputTokens": 2547,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "819170bb56f9759a",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 2549,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "3b4dd2e76bbfdd5b",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 2690,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "0024f6d6cb1a07fd",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 2688,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "39ba6e51c1121e8a",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 2850,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "847718c2ffe71204",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 2848,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "1dccd03cbaa61eff",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3008,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "5e10c3004d1134e1",
+      "response": {
+        "text": "Node 22, from the node:22-alpine base image.",
+        "inputTokens": 3010,
+        "outputTokens": 17,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "f7626cfaf5ec29c9",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3073,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "8123cc917a59c090",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3072,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "fc23e77eba5b2fd1",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3205,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "df73f3f6adcd2dc1",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3207,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "8ed085ad8de3f051",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3330,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "04d2fb263bc512e1",
+      "response": {
+        "text": "Bramble Studio, small design agency with three people.",
+        "inputTokens": 3330,
+        "outputTokens": 15,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "55348618e5d1a2e8",
+      "response": {
+        "text": "- Launch date is November 4 (t71)\n- Extra three weeks for payments soak and pilot feedback (t71)\n- Use extra time: full week of pilot sending real invoices watching every webhook and job, pass on failure paths (declined payment, refund, customer editing after send), then launch checklist (t72)\n- Freeze new features two weeks before launch (t72)\n- Daily fifteen minute review during soak: failed jobs, 5xx count, webhook delivery failures, pilot reports (t72)\n- On-call tool is PagerDuty, on-call is just founder for now (t73)\n- Wake-up alerts: readiness failing over two minutes, error rate above few percent for five minutes, payment webhook processing failures, queue depth growing for thirty minutes (t74)\n- Everything else (disk warnings, slow queries, single failed job) goes to daily digest (t74)\n- Pager escalates to email after fifteen minutes (t74)\n- Review each fired alert in weekly review and delete ones that did not lead to action (t74)\n- Secret store is Doppler syncing into platform environment (t75)\n- Keep payment provider webhook signing secret and API key hashing pepper in Doppler (t76)\n- Rotate webhook signing secret and hashing pepper on fixed schedule and document how (t76)\n- Keep long lived personal tokens out of secret store entirely (t76)\n- Use separate Doppler project or environment per stage (t76)\n- Turn on audit log and review monthly (t76)\n- Keep sealed emergency copy of production database credentials somewhere not dependent on secret store (t76)\n- Maximum line items per invoice is 200 (t77)\n- Enforce 200 line item limit in both API (422 with clear message) and database (trigger or check in finalization transaction) (t78)\n- Use same number in one shared constant (t78)\n- Test PDF renderer at exactly 200 items and at page boundary sizes (t78)\n- Document limit in API reference (t78)\n- Domain registrar is Namecheap, DNS delegated to CDN (t79)\n- Turn on registrar lock and two factor on registrar account (t80)\n- Set renewal to automatic with card that will not expire this year (t80)\n- Add calendar reminder one month before domain expiry (t80)\n- Enable DNSSEC if registrar supports it (t80)\n- Restrict who can edit DNS records (t80)\n- Add CAA records so only certificate authority can issue for domain (t80)\n- Bug: finalizing invoice twice in quick succession creates two numbers (t81)\n- Fix: lock counter row with FOR UPDATE, then re-read invoice status inside same transaction, abort if already finalized (t82)\n- Second guard: unique constraint on invoice id in finalizations table, or UPDATE WHERE status = 'draft' that returns zero rows for loser (t82)\n- Bug: PDF rendering produces blank pages on staging but not locally (t83)\n- Cause: container missing font files (t84)\n- Fix: bundle font files with image and register by absolute path at renderer start (t84)\n- Fail loudly if font file does not exist at startup (t84)\n- Log page dimensions once per render (t84)\n- Checkout success redirect arrives before webhook sometimes (t85)\n- On success page show pending state saying payment is being confirmed (t86)\n- Poll invoice status every two seconds for up to one minute (t86)\n- Do not mark invoice paid from redirect; webhook remains only source of truth (t86)\n- Can fetch session from provider on success page for provisional confirmed state, but keep stored status unpaid until event processed (t86)\n- Bug: worker using a lot of memory after a day of running, rendering jobs complete but process grows (t87)",
+        "inputTokens": 2460,
+        "outputTokens": 867,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "240ebf33fbcf312c",
+      "response": {
+        "text": "Okafor",
+        "inputTokens": 2128,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "6e9ed2a17d870e34",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 2128,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "5669055d86ff6967",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 2377,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "2591be6d81f65e4c",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 2414,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "e10ffd405184e68c",
+      "response": {
+        "text": "**Summary:**\n\n- Customer name: Marcus Reyes (t1)\n- Account number: NF-88214 (t1)\n- Plan: Fiber 1 Gig (t1)\n- Issue: Internet dropping every evening for a week (t1)\n- Service address: 41 Harbor Lane (t5)\n- Router model: Nokia G-2425 (t3)\n- Optical terminal light stays green during drops (t3)\n- Manual channel change helped but wired laptop still dropped once around 9 pm (t7)\n- Ticket number: 40317 (t9)\n- Outage start date: March 2 (t11)\n- Optical signal stable with no errors for past two weeks (t6)\n- First disconnect events in router logs started about a week ago (t10)\n- Technician visit scheduled: March 6, morning slot (t13)\n- Callback number: 555-0142 (mobile) (t15)\n- Preferred contact time: mornings, before noon (t17)\n- Monthly bill: $79 (t19)\n- Advertised promotional rate: $69 for first twelve months (t20)\n- Account passed twelve month mark two cycles ago (t20)\n- Standard rate difference: $10 (t20)\n- Promo code SPRING20 applied: 20% off standard plan price for six months, starting next bill (t22)\n- Customer's mesh extender: Eero 6 (t23)",
+        "inputTokens": 1547,
+        "outputTokens": 353,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "aded9fbc70841e69",
+      "response": {
+        "text": "**Summary:**\n\n- Customer name: Marcus Reyes (t1)\n- Account number: NF-88214 (t1)\n- Plan: Fiber 1 Gig (t1)\n- Issue: Internet dropping every evening for a week (t1)\n- Service address: 9 Cedar Court, effective first of next month (t41)\n- Old service address: 41 Harbor Lane (t5)\n- Router model: Nokia G-2425 (t3)\n- Optical terminal light stays green during drops (t3)\n- Manual channel change helped but wired laptop still dropped once around 9 pm (t7)\n- Ticket number: 40317 (t9)\n- Outage start date: March 2 (t11)\n- Optical signal stable with no errors for past two weeks (t6)\n- First disconnect events in router logs started about a week ago (t10)\n- Technician visit completed: March 9, morning (t35)\n- Callback number: 555-0142 (mobile) (t15)\n- Preferred contact time: mornings, before noon (t17)\n- Monthly bill: $79 (t19)\n- Advertised promotional rate: $69 for first twelve months (t20)\n- Account passed twelve month mark two cycles ago (t20)\n- Standard rate difference: $10 (t20)\n- Promo code SPRING20 applied: 20% off standard plan price for six months, starting next bill (t22)\n- Customer's mesh extender: Eero 6 (t23)\n- Replacement router is same model (t24)\n- Recommendation: put router into bridge mode to avoid congestion (t24)\n- Static IP add-on ordered: $10 per month (t27)\n- Static IP provisioned within a day (t26)\n- Billing date: 15th each month (t31)\n- Payment drawn three days after billing date (t30)\n- Router dropped three times on night of March 4 (t31)\n- Technician visit rescheduled to March 9, morning (t33)\n- New router installed, connector replaced (t35)\n- Measured download speed: 940 Mbps wired (t35)\n- Connector was seated loosely (t36)\n- No drops since technician visit (t35)\n- Ticket kept open for one week (t36)\n- Email on file: marcus.r@example.com (t37)\n- Test notification sent and received (t38)\n- Move scheduled: activation at new address morning of first of next month, disconnect at old address same afternoon (t42)\n- New address building already has terminal in utility closet (t42)\n- Plan, promo and add-ons carry over to new address (t40)\n- Static IP stays the same after move (t44)\n- Static IP may have short routing period after activation, clears within an hour (t44)",
+        "inputTokens": 1684,
+        "outputTokens": 691,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "f68e63c1eb319faa",
+      "response": {
+        "text": "Nokia G-2425, replaced during the technician visit on March 9.",
+        "inputTokens": 2460,
+        "outputTokens": 20,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "63c1f625385dff50",
+      "response": {
+        "text": "9 Cedar Court, effective first of next month.",
+        "inputTokens": 2459,
+        "outputTokens": 15,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "d23839d12424147a",
+      "response": {
+        "text": "40317",
+        "inputTokens": 2528,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "13454d2415905da7",
+      "response": {
+        "text": "March 2.",
+        "inputTokens": 2529,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "5c22672c1180fed4",
+      "response": {
+        "text": "March 9, morning.",
+        "inputTokens": 2662,
+        "outputTokens": 9,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "5a8195f963cf37ce",
+      "response": {
+        "text": "555-0142 (mobile)",
+        "inputTokens": 2660,
+        "outputTokens": 12,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "5cbe866fe3fb0537",
+      "response": {
+        "text": "Mornings, before noon.",
+        "inputTokens": 2697,
+        "outputTokens": 10,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "58887bf639aca50b",
+      "response": {
+        "text": "$79 plus $10 for the static IP, minus the promotional discount which brings the plan portion to about $63, so roughly $73 before tax.",
+        "inputTokens": 2696,
+        "outputTokens": 37,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "8375df845de6e194",
+      "response": {
+        "text": "SPRING20",
+        "inputTokens": 2696,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "80b031c7d46f329a",
+      "response": {
+        "text": "Eero 6",
+        "inputTokens": 2751,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "43630a3fa6fc7333",
+      "response": {
+        "text": "$10 per month.",
+        "inputTokens": 2750,
+        "outputTokens": 9,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "d4e5176a40935b95",
+      "response": {
+        "text": "The 15th each month.",
+        "inputTokens": 2753,
+        "outputTokens": 10,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "81fb5ee86663f845",
+      "response": {
+        "text": "940 Mbps wired.",
+        "inputTokens": 2769,
+        "outputTokens": 12,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "1ed9e55e46061e5b",
+      "response": {
+        "text": "m.reyes@example.net",
+        "inputTokens": 2766,
+        "outputTokens": 11,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "a468589f62d3e0ea",
+      "response": {
+        "text": "The standard credit was $25, and an additional goodwill credit was approved and will appear on the next bill.",
+        "inputTokens": 2767,
+        "outputTokens": 27,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "80fcc309687bd99e",
+      "response": {
+        "text": "Primary 1.1.1.1, secondary not stated but you said you would add one.",
+        "inputTokens": 2766,
+        "outputTokens": 24,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "93bffd0436e1bfb3",
+      "response": {
+        "text": "Stream Basic.",
+        "inputTokens": 2766,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "ac758d348bef5899",
+      "response": {
+        "text": "4471",
+        "inputTokens": 2770,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "689f4430d4475930",
+      "response": {
+        "text": "NF-88214",
+        "inputTokens": 2765,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "abf1f8ed207d31e5",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 2765,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "05391b85a72c4b3b",
+      "response": {
+        "text": "**Summary of conversation:**\n\n- Traveler: Priya Natarajan (t1)\n- Departure city: Seattle (t1)\n- Dietary requirement: vegetarian (t1)\n- Travel companion: sister Meera, eats everything (t11)\n- Destination: Portugal, first visit (t3)\n- Preferences: walkable cities, coastline, good food over museums (t3)\n- Trip length: 12 days including travel days (t5)\n- Hotel moves: maximum twice (t5)\n- Total budget: $4,500 for Priya; Meera pays her own way (t7)\n- Departure date: May 3 (t9)\n- Return date: May 14 (t9)\n- First city: Lisbon (t13)\n- Flight plan: into Lisbon, out of Porto (t13)\n- Lisbon hotel: Hotel Avenida Palace, five nights, already booked (t15)\n- Rental car: Europcar, picked up in Lisbon, for a couple of days (t17)\n- Budget breakdown estimate: flights $900-$1,200, lodging ~$150/night (~$1,600 for 11 nights), food ~$50/day ($550), in-country transport ~$200, activities and car rental ~$400, cushion few hundred (t8)\n- Early May timing: one of best windows, warm days, cool evenings, pack light layer and rain jacket (t10)\n- Restaurant strategy: strong vegetarian options that also serve meat/fish (t12)\n- Lisbon hotel location: bottom of main avenue, next to old town station, 15 min walk to viewpoints, breakfast included with vegetarian choices (t16)\n- Car rental advice: pick up when leaving city center, get small car, book automatic if needed, verify credit card coverage, photograph car at pickup (t18)",
+        "inputTokens": 1570,
+        "outputTokens": 444,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "00b0906301bef703",
+      "response": {
+        "text": "**Summary of conversation:**\n\n- Traveler: Priya Natarajan (t1)\n- Departure city: Seattle (t1)\n- Dietary requirement: vegetarian (t1)\n- Travel companion: sister Meera, eats everything (t11)\n- Destination: Portugal, first visit (t3)\n- Preferences: walkable cities, coastline, good food over museums (t3)\n- Trip length: 12 days including travel days (t5)\n- Hotel moves: maximum twice (t5)\n- Total budget: $4,500 for Priya; Meera pays her own way (t7)\n- Departure date: May 3 (t9)\n- Return date: May 14 (t9)\n- First city: Lisbon (t13)\n- Second city: Porto (t19)\n- Flight plan: into Lisbon, out of Porto (t13)\n- Lisbon hotel: Hotel Avenida Palace, five nights, already booked (t15)\n- Porto stay: 4 nights (t21)\n- Spare night: one night, suggested for Douro Valley (t22)\n- Rental car: Europcar, picked up in Lisbon, for a couple of days (t17)\n- Budget breakdown estimate: flights $900-$1,200, lodging ~$150/night (~$1,600 for 11 nights), food ~$50/day ($550), in-country transport ~$200, activities and car rental ~$400, cushion few hundred (t8)\n- Flights booked: TAP Air Portugal with one connection each way, $1,050 for Priya (t25)\n- Seat preference: aisle for Priya, window for Meera (t27)\n- Early May timing: one of best windows, warm days, cool evenings, pack light layer and rain jacket (t10)\n- Restaurant strategy: strong vegetarian options that also serve meat/fish (t12)\n- Lisbon hotel location: bottom of main avenue, next to old town station, 15 min walk to viewpoints, breakfast included with vegetarian choices (t16)\n- Car rental advice: pick up when leaving city center, get small car, book automatic if needed, verify credit card coverage, photograph car at pickup (t18)\n- Travel insurance provider: World Nomads (t23)\n- Lisbon to Porto: train, about three hours city center to city center, book a few weeks ahead for cheaper fares, morning departure (t20)\n- Porto highlights: riverside, old center on hill, wine lodges across bridge on south bank (t20)\n- Day trip: Sintra, take first train out (~40 minutes), buy timed tickets online day before, go to palace on hill first before 10am, walk down through gardens, lunch in town center, finish with coastal cape (t31, t32)\n- Douro Valley: drive with rental car, stay one night, drive river road not highway, book two estate visits with tastings, lunch at estate with vegetable menu, stay at guesthouse on terraces, return to Porto next morning (t33, t34)\n- Lisbon dinners: one fully vegetarian restaurant with tasting menu (book week ahead), two traditional taverns with vegetable soup/grilled vegetables/mushroom or bean dishes, one casual market hall evening, one evening near viewpoints with small plates and view (t30)\n- Money: use cards almost everywhere, get small amount of cash from bank ATM after landing (not airport exchange), decline ATM currency conversion, tell bank travel dates, contactless works on trams and metro (t36)",
+        "inputTokens": 1946,
+        "outputTokens": 837,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "3d0dd46d4b42c4d7",
+      "response": {
+        "text": "Portugal",
+        "inputTokens": 2601,
+        "outputTokens": 4,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "4bb4a0305776704e",
+      "response": {
+        "text": "12 days including travel days, departure May 10, return May 21.",
+        "inputTokens": 2601,
+        "outputTokens": 21,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "52dcc3df16f5abab",
+      "response": {
+        "text": "$5,200",
+        "inputTokens": 2740,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "d784fa0a1d71f994",
+      "response": {
+        "text": "May 21",
+        "inputTokens": 2741,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "f6168f39c50e0655",
+      "response": {
+        "text": "Your sister Meera, who eats everything.",
+        "inputTokens": 2788,
+        "outputTokens": 14,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "fe1f4cb6c91be7d0",
+      "response": {
+        "text": "Hotel Avenida Palace, five nights, already booked.",
+        "inputTokens": 2792,
+        "outputTokens": 17,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "db0b89b2b47fae50",
+      "response": {
+        "text": "Sixt, picked up in Porto.",
+        "inputTokens": 2893,
+        "outputTokens": 12,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "892ef2b7d93b8640",
+      "response": {
+        "text": "Four nights in Porto, three in the city hotel and one in the Douro Valley.",
+        "inputTokens": 2893,
+        "outputTokens": 22,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "4671c9e62f87a7d6",
+      "response": {
+        "text": "World Nomads",
+        "inputTokens": 2986,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "51daccd283fed917",
+      "response": {
+        "text": "TAP Air Portugal.",
+        "inputTokens": 2985,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "8ea87b4aad4e60d1",
+      "response": {
+        "text": "Aisle for Priya, window for Meera.",
+        "inputTokens": 3077,
+        "outputTokens": 17,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "1edb85fe4c915c88",
+      "response": {
+        "text": "Sintra, about 40 minutes by train from Lisbon.",
+        "inputTokens": 3081,
+        "outputTokens": 19,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "b95fc1f72ff00df7",
+      "response": {
+        "text": "Douro Valley",
+        "inputTokens": 3114,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "9adeb69c1779a96c",
+      "response": {
+        "text": "Airalo eSIM with a Europe data package.",
+        "inputTokens": 3115,
+        "outputTokens": 15,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "26d78ed52a5783da",
+      "response": {
+        "text": "The Yeatman, across the river with the view.",
+        "inputTokens": 3214,
+        "outputTokens": 16,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "c36a41019786bd98",
+      "response": {
+        "text": "TP 267 from Porto, early morning.",
+        "inputTokens": 3213,
+        "outputTokens": 14,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "d8467a3f5520fcb1",
+      "response": {
+        "text": "Porto airport, flight TP 267 early morning on May 21.",
+        "inputTokens": 3231,
+        "outputTokens": 19,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "6759e2d1e93f21db",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3238,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "55be18e07f113d03",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 3233,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "84e70fe01d4a7f12",
+      "response": {
+        "text": "name: Dana Okafor (t1)\nproject: Ledgerline (t1)\nproject_type: invoicing app for freelancers (t1)\nrepo_name: ledgerline-api (t1)\nlanguage: TypeScript (t1)\ndatabase: PostgreSQL 16 (t3)\ndatabase_local: running in Docker (t3)\ndatabase_staging: managed instance (t3)\norm: Drizzle (t5)\ndeploy_target: Render (t7)\nrender_services: web service and managed database (t7)\nlaunch_date: October 14 (t9)\ntimeline: six weeks (t9)\npayment_provider: Stripe (t11)\nstripe_integration: hosted checkout (t11)",
+        "inputTokens": 361,
+        "outputTokens": 179,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "9636462efbb5f1bd",
+      "response": {
+        "text": "test_runner: Vitest (t13)\nstaging_url: staging.ledgerline.app (t15)\napi_rate_limit: 120 requests per minute per API key (t17)\ninvoice_number_prefix: INV-2026- (t19)\ndefault_currency: USD (t21)\nerror_tracker: Sentry (t23)\nnode_version: 22 (t25)\npdf_library: pdfkit (t27)",
+        "inputTokens": 391,
+        "outputTokens": 113,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "d27331b416899010",
+      "response": {
+        "text": "auth_provider: Clerk (t29)\nprimary_region: Frankfurt (t31)\nearly_customers_location: Europe (t31)\ncache_system: Redis 7 (t33)\nlog_retention: 30 days (t35)\ndesign_tool: Figma (t37)\nsupport_email: help@ledgerline.app (t39)\ndefault_tax_rate: 20 percent (t41)",
+        "inputTokens": 346,
+        "outputTokens": 104,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "8e45ed843ecaf94e",
+      "response": {
+        "text": "mobile_framework: Expo (t43)\ncdn: Cloudflare (t45)\ncdn_coverage: marketing site and app (t45)\nwebhook_retry_count: 5 (t47)\nwebhook_backoff: exponential (t47)\nqueue: BullMQ (t49)\nqueue_jobs: PDF jobs and webhook deliveries (t49)\nanalytics_tool: PostHog (t51)\ndeploy_target: Fly.io (t53)\nworker_deployment: separate machine (t53)\nbilling_model: per seat (t55)\npricing_structure: flat monthly price per user (t55)",
+        "inputTokens": 348,
+        "outputTokens": 150,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "b0acbf2e1c9ecb8d",
+      "response": {
+        "text": "ledgerline-api",
+        "inputTokens": 3106,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "608c836bcfc525a5",
+      "response": {
+        "text": "PostgreSQL 16",
+        "inputTokens": 3106,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "798ea6bd5f75f25a",
+      "response": {
+        "text": "trial_length: 14 days from account creation (t57)\nstatus_page: status.ledgerline.app (t59)\nbackup_schedule: nightly at 02:00 UTC (t61)\npoint_in_time_recovery: enabled on managed database (t61)\napi_version_header: X-Ledger-Version (t63)\napi_version_format: clients send a date (t63)\nfeature_flag_service: Unleash, self hosted (t65)\ncontainer_base_image: node:22-alpine (t67)\nfirst_customer: Bramble Studio (t69)\ncustomer_type: small design agency (t69)\ncustomer_size: three people (t69)\ncustomer_status: early access pilot (t69)",
+        "inputTokens": 338,
+        "outputTokens": 183,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "c09f6d5ad3d51c94",
+      "response": {
+        "text": "Drizzle (turn 5)",
+        "inputTokens": 2234,
+        "outputTokens": 12,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "1139ff4e8d86ec12",
+      "response": {
+        "text": "Fly.io, with the worker on a separate machine.",
+        "inputTokens": 2234,
+        "outputTokens": 16,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "250464268a086f4b",
+      "response": {
+        "text": "November 4",
+        "inputTokens": 2390,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "8b55edbcfbf24f58",
+      "response": {
+        "text": "Stripe, using hosted checkout.",
+        "inputTokens": 2392,
+        "outputTokens": 10,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "979a21a845fbfbde",
+      "response": {
+        "text": "Vitest",
+        "inputTokens": 2533,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "fbc06b12d6eb9d10",
+      "response": {
+        "text": "staging.ledgerline.app",
+        "inputTokens": 2531,
+        "outputTokens": 10,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "33c0a43fbbf03df1",
+      "response": {
+        "text": "120 requests per minute per API key.",
+        "inputTokens": 2693,
+        "outputTokens": 13,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "3fb43cbc5b448140",
+      "response": {
+        "text": "INV-2026-",
+        "inputTokens": 2691,
+        "outputTokens": 9,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "fb58f5f636695658",
+      "response": {
+        "text": "Sentry (turn 23).",
+        "inputTokens": 2851,
+        "outputTokens": 11,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "109e5ab3edee68c0",
+      "response": {
+        "text": "Node 22.",
+        "inputTokens": 2853,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "f7a9c4e59ca34d3a",
+      "response": {
+        "text": "pdfkit",
+        "inputTokens": 2916,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "93273e23cca2b95b",
+      "response": {
+        "text": "Clerk",
+        "inputTokens": 2915,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "637e6dc64adfbc5a",
+      "response": {
+        "text": "Frankfurt",
+        "inputTokens": 3048,
+        "outputTokens": 4,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "18c2b03d20894ac2",
+      "response": {
+        "text": "Redis 7",
+        "inputTokens": 3050,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "29fc94a34dfc75fe",
+      "response": {
+        "text": "30 days",
+        "inputTokens": 3173,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "bb93fb0fab98f529",
+      "response": {
+        "text": "Bramble Studio, a small design agency with three people, on early access pilot.",
+        "inputTokens": 3173,
+        "outputTokens": 21,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "26dcd74728dc66d8",
+      "response": {
+        "text": "launch_date: November 4 (t71)\nextra_time_reason: payments soak and pilot feedback (t71)\non_call_tool: PagerDuty (t73)\non_call_person: just me (t73)\nsecret_store: Doppler (t75)\nmax_line_items_per_invoice: 200 (t77)\ndomain_registrar: Namecheap (t79)\ndns_delegation: delegated to the CDN (t79)\ncounters_table: implemented (t81)\nbug_fix: status read moved inside transaction (t83)\npdf_issue_cause: font directory missing in copy step (t85)\ncheckout_issue: success redirect arrives before webhook sometimes (t85)\nsolution_implemented: pending state (t87)\nworker_issue: using a lot of memory after a day of running (t87)",
+        "inputTokens": 457,
+        "outputTokens": 208,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "f0e08ce8c9c5a714",
+      "response": {
+        "text": "Okafor",
+        "inputTokens": 2296,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "2c53966e60d675a5",
+      "response": {
+        "text": "USD (turn 21)",
+        "inputTokens": 2296,
+        "outputTokens": 9,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "a6a357c1d5b967bf",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 2545,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "fd5e1e6639215e7c",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 2582,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "cc072acb665e8264",
+      "response": {
+        "text": "name: Marcus Reyes (t1)\naccount_number: NF-88214 (t1)\nplan: Fiber 1 Gig (t1)\nrouter_model: Nokia G-2425 (t3)\nservice_address: 41 Harbor Lane (t5)\nticket_number: 40317 (t9)\noutage_start_date: March 2 (t11)\ntechnician_visit_date: March 6 (t13)\ntechnician_visit_time: morning slot (t13)\ncallback_number: 555-0142 (t15)\npreferred_contact_time: mornings, before noon (t17)\nmonthly_bill: $79 (t19)\npromo_code: SPRING20 (t21)\nmesh_extender: Eero 6 (t23)",
+        "inputTokens": 538,
+        "outputTokens": 204,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "3fb85a1a19453609",
+      "response": {
+        "text": "billing_date: 15th each month (t31)\nstatic_ip_fee: $10 a month (t27)\nstatic_ip_service: added (t27)\ncurrent_date: March 5 (t31)\nrouter_drops: three times last night (t31)\ntechnician_visit: March 9, morning (t33)\nnew_router: installed (t35)\nconnector: replaced (t35)\ndownload_speed_measured: 940 Mbps wired test (t35)\nemail: marcus.r@example.com (t37)\nmoving: next month (t39)\nnew_service_address: 9 Cedar Court (t41)\nmove_effective_date: first of next month (t41)",
+        "inputTokens": 406,
+        "outputTokens": 177,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "f7b68e92b8ec7f56",
+      "response": {
+        "text": "Nokia G-2425, replaced during the March 9 visit.",
+        "inputTokens": 2200,
+        "outputTokens": 18,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "541de9dbaf9fa8eb",
+      "response": {
+        "text": "9 Cedar Court",
+        "inputTokens": 2199,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "84c42f7c51f0cdcb",
+      "response": {
+        "text": "40317",
+        "inputTokens": 2268,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "6e4f6969e7714147",
+      "response": {
+        "text": "March 2.",
+        "inputTokens": 2269,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "b427be6ac92eeb8d",
+      "response": {
+        "text": "March 9, morning.",
+        "inputTokens": 2402,
+        "outputTokens": 9,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "880a3b2867bf0690",
+      "response": {
+        "text": "555-0142",
+        "inputTokens": 2400,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "a14bf8f529e81e66",
+      "response": {
+        "text": "Mornings, before noon.",
+        "inputTokens": 2437,
+        "outputTokens": 10,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "71e6d48fa3a7da31",
+      "response": {
+        "text": "$79 plus the $10 static IP fee, so $89 total before the promotional discount.",
+        "inputTokens": 2436,
+        "outputTokens": 25,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "e3fb68acf6a65872",
+      "response": {
+        "text": "SPRING20",
+        "inputTokens": 2436,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "891147d9d3f8d51a",
+      "response": {
+        "text": "Eero 6",
+        "inputTokens": 2491,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "721811fd6b37a80f",
+      "response": {
+        "text": "$10 a month",
+        "inputTokens": 2490,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "b2c65f99f5570b14",
+      "response": {
+        "text": "The 15th each month.",
+        "inputTokens": 2493,
+        "outputTokens": 10,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "64c8fe5752a9ba29",
+      "response": {
+        "text": "940 Mbps wired test.",
+        "inputTokens": 2509,
+        "outputTokens": 13,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "367b883716323ac5",
+      "response": {
+        "text": "m.reyes@example.net",
+        "inputTokens": 2506,
+        "outputTokens": 11,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "a50ed8c013b7711b",
+      "response": {
+        "text": "$25, with an additional goodwill credit approved that will appear on the next bill.",
+        "inputTokens": 2507,
+        "outputTokens": 22,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "14486ffe0fcf102e",
+      "response": {
+        "text": "Primary 1.1.1.1, secondary not stated yet but you said you would add one.",
+        "inputTokens": 2506,
+        "outputTokens": 25,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "4de6885e9ec14932",
+      "response": {
+        "text": "Stream Basic.",
+        "inputTokens": 2506,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "a5593d773364e229",
+      "response": {
+        "text": "4471",
+        "inputTokens": 2510,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "4acb25cb350f3890",
+      "response": {
+        "text": "NF-88214",
+        "inputTokens": 2505,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "d3d96439dbf83a28",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 2505,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "8eafba6e40bb51d1",
+      "response": {
+        "text": "name: Priya Natarajan (t1)\ndeparture_city: Seattle (t1)\ndietary_restriction: vegetarian (t1)\ndestination: Portugal (t3)\npreferences: walkable cities, coastline, good food (t3)\ntrip_length: 12 days including travel days (t5)\nmax_hotel_moves: twice (t5)\ntotal_budget: $4,500 (t7)\ndeparture_date: May 3 (t9)\nreturn_date: May 14 (t9)\ntravel_companion: sister Meera (t11)\narrival_city: Lisbon (t13)\ndeparture_city_final: Porto (t13)\nlisbon_hotel: Hotel Avenida Palace (t15)\nlisbon_nights: 5 (t15)\nrental_car_company: Europcar (t17)\ncar_pickup_location: Lisbon (t17)\ncar_rental_days: couple of days (t17)",
+        "inputTokens": 413,
+        "outputTokens": 237,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "32582edb1d949c07",
+      "response": {
+        "text": "second_city: Porto (t19)\ntransport_lisbon_to_porto: train (t19)\nporto_nights: 4 (t21)\nundecided_nights: 1 (t21)\ntravel_insurance_provider: World Nomads (t23)\nairline: TAP Air Portugal (t25)\nconnections_per_direction: one (t25)\nflight_cost: $1,050 (t25)\nseat_preference_user: aisle (t27)\nseat_preference_meera: window (t27)\ndietary_preference: vegetarian (t29)\nday_trip_destination: Sintra (t31)\nwine_region: Douro Valley (t33)\ndouro_valley_nights: 1 (t33)\ndouro_valley_transport: rental car (t33)",
+        "inputTokens": 362,
+        "outputTokens": 198,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "5c56dfc8ea58ebbf",
+      "response": {
+        "text": "Portugal",
+        "inputTokens": 2261,
+        "outputTokens": 4,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "6d17b864185c64cb",
+      "response": {
+        "text": "12 days including travel days.",
+        "inputTokens": 2261,
+        "outputTokens": 11,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "12ac7bd410ea7f81",
+      "response": {
+        "text": "$5,200",
+        "inputTokens": 2400,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "6d3a7523dfd086e9",
+      "response": {
+        "text": "May 21",
+        "inputTokens": 2401,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "51eb00118565f09b",
+      "response": {
+        "text": "Your sister Meera.",
+        "inputTokens": 2448,
+        "outputTokens": 9,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "c0464e44d4d37ce9",
+      "response": {
+        "text": "Hotel Avenida Palace",
+        "inputTokens": 2452,
+        "outputTokens": 9,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "f5dcfcda26585bf6",
+      "response": {
+        "text": "Sixt, picked up in Porto.",
+        "inputTokens": 2553,
+        "outputTokens": 12,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "d4707cdc18991e98",
+      "response": {
+        "text": "Four nights, three in the city and one in the Douro Valley.",
+        "inputTokens": 2553,
+        "outputTokens": 19,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "0132c1f2c8729d1b",
+      "response": {
+        "text": "World Nomads",
+        "inputTokens": 2646,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "678d46e09da681d4",
+      "response": {
+        "text": "TAP Air Portugal.",
+        "inputTokens": 2645,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "e60d300f0418515a",
+      "response": {
+        "text": "aisle",
+        "inputTokens": 2737,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "6979ac7eb9d6ba8d",
+      "response": {
+        "text": "Sintra",
+        "inputTokens": 2741,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "12a367f531ff4a58",
+      "response": {
+        "text": "Douro Valley",
+        "inputTokens": 2774,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "a78b0b607d0db755",
+      "response": {
+        "text": "Airalo eSIM with a Europe data package.",
+        "inputTokens": 2775,
+        "outputTokens": 15,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "658a8e31f873bebe",
+      "response": {
+        "text": "The Yeatman, across the river with the view.",
+        "inputTokens": 2874,
+        "outputTokens": 16,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "ef63e7d3da0beebd",
+      "response": {
+        "text": "TP 267 from Porto, early morning.",
+        "inputTokens": 2873,
+        "outputTokens": 14,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "c7e5b9e5f43d5980",
+      "response": {
+        "text": "Porto airport, flight TP 267.",
+        "inputTokens": 2891,
+        "outputTokens": 12,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "0801f2d0efa9e56a",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 2898,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "d3286785ce7a8130",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 2893,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "b89939bbaa0c9041",
+      "response": {
+        "text": "ledgerline-api",
+        "inputTokens": 1603,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "1ad086f1e86ab327",
+      "response": {
+        "text": "PostgreSQL 16",
+        "inputTokens": 1771,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "7ecf0f1f8194928f",
+      "response": {
+        "text": "Drizzle.",
+        "inputTokens": 1364,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "b78c28c1d975b08b",
+      "response": {
+        "text": "Fly.io",
+        "inputTokens": 1770,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "7d4897ed6e0be34b",
+      "response": {
+        "text": "November 4.",
+        "inputTokens": 1884,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "e993e6291ef8ccb6",
+      "response": {
+        "text": "Stripe.",
+        "inputTokens": 1983,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "e6bb6a58d349400b",
+      "response": {
+        "text": "Vitest for the app, Node built-in test runner for a couple of scripts.",
+        "inputTokens": 1788,
+        "outputTokens": 22,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "7228f53c56704ee1",
+      "response": {
+        "text": "staging.ledgerline.app",
+        "inputTokens": 1922,
+        "outputTokens": 10,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "56f177ec02de0906",
+      "response": {
+        "text": "120 requests per minute per API key.",
+        "inputTokens": 1974,
+        "outputTokens": 13,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "a10fd15af5bb413f",
+      "response": {
+        "text": "INV-2026-",
+        "inputTokens": 2017,
+        "outputTokens": 9,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "8f58763fc4705f88",
+      "response": {
+        "text": "Sentry.",
+        "inputTokens": 1465,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "98467c78fcdadbf6",
+      "response": {
+        "text": "Node 22.",
+        "inputTokens": 1845,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "7516754420f97026",
+      "response": {
+        "text": "pdfkit",
+        "inputTokens": 1804,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "afe8de0dbb1edf50",
+      "response": {
+        "text": "Clerk, with sessions for the web app and API keys for programmatic access.",
+        "inputTokens": 1880,
+        "outputTokens": 20,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "3194fb1ea239c118",
+      "response": {
+        "text": "Frankfurt",
+        "inputTokens": 1132,
+        "outputTokens": 4,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "16118d6c16458b83",
+      "response": {
+        "text": "Redis 7.",
+        "inputTokens": 1678,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "9e2a227d4ae3a29d",
+      "response": {
+        "text": "Thirty days.",
+        "inputTokens": 1782,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "ca3ecd68611d5e97",
+      "response": {
+        "text": "Bramble Studio, a small design agency with three people.",
+        "inputTokens": 1399,
+        "outputTokens": 16,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "c78cf480ffea8d73",
+      "response": {
+        "text": "Okafor",
+        "inputTokens": 1463,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "34d911b9688fcab1",
+      "response": {
+        "text": "USD.",
+        "inputTokens": 1822,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "eb4c8c4499e139af",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1748,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "db29ee5a80fdb20a",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1733,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "772c3271490b8133",
+      "response": {
+        "text": "Nokia G-2425, the replacement installed during the visit.",
+        "inputTokens": 1559,
+        "outputTokens": 16,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "418a969298b60ea0",
+      "response": {
+        "text": "9 Cedar Court",
+        "inputTokens": 1572,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "7d1ce55cdbb669ef",
+      "response": {
+        "text": "40317",
+        "inputTokens": 1369,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "9609585e804e73e3",
+      "response": {
+        "text": "March 2, from your notes.",
+        "inputTokens": 1203,
+        "outputTokens": 11,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "8060e5197a85a57b",
+      "response": {
+        "text": "March 9, morning slot.",
+        "inputTokens": 1170,
+        "outputTokens": 10,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "d70903383ae555b8",
+      "response": {
+        "text": "555-0142",
+        "inputTokens": 756,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "0b3a01e19962f8ea",
+      "response": {
+        "text": "Mornings, before noon.",
+        "inputTokens": 550,
+        "outputTokens": 10,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "bc0455a5069e8efc",
+      "response": {
+        "text": "$79 per month, dropping to around $63 for six months with the promo code, then back to $79, plus the static IP add-on fee which was not stated.",
+        "inputTokens": 1279,
+        "outputTokens": 43,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "2b7eae7c6fc0b6ef",
+      "response": {
+        "text": "SPRING20",
+        "inputTokens": 1179,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "3d55b4c299288bc5",
+      "response": {
+        "text": "Eero 6",
+        "inputTokens": 1435,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "7f34dde93fa1dec2",
+      "response": {
+        "text": "$10 a month.",
+        "inputTokens": 1050,
+        "outputTokens": 9,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "b92f4721b7c709a5",
+      "response": {
+        "text": "The 15th each month.",
+        "inputTokens": 1107,
+        "outputTokens": 10,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "1817d624fdc47b5e",
+      "response": {
+        "text": "940 Mbps",
+        "inputTokens": 1157,
+        "outputTokens": 9,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "a0dd25516536f746",
+      "response": {
+        "text": "m.reyes@example.net",
+        "inputTokens": 1174,
+        "outputTokens": 11,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "e308f9f9f1103666",
+      "response": {
+        "text": "$25 standard credit plus an approved goodwill credit, combined covering most of one month at promotional rate.",
+        "inputTokens": 885,
+        "outputTokens": 26,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "17845123f3451251",
+      "response": {
+        "text": "1.1.1.1 for both primary and secondary.",
+        "inputTokens": 1176,
+        "outputTokens": 18,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "1a69a9684e447628",
+      "response": {
+        "text": "Stream Basic.",
+        "inputTokens": 1197,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "bb81547138a63303",
+      "response": {
+        "text": "4471",
+        "inputTokens": 896,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "02039ae5d4827443",
+      "response": {
+        "text": "NF-88214",
+        "inputTokens": 1174,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "70fedd91290577f1",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1343,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "59faa0930149a731",
+      "response": {
+        "text": "Portugal",
+        "inputTokens": 919,
+        "outputTokens": 4,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "1723c02235ad7711",
+      "response": {
+        "text": "12 days including travel days.",
+        "inputTokens": 1864,
+        "outputTokens": 11,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "7a8968175f43f7c6",
+      "response": {
+        "text": "$5,200",
+        "inputTokens": 1166,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "169d725689b12291",
+      "response": {
+        "text": "Not stated.",
+        "inputTokens": 1628,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "2bc445d05d8422fb",
+      "response": {
+        "text": "Your sister Meera.",
+        "inputTokens": 1001,
+        "outputTokens": 9,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "cc83ccb7d75ea18c",
+      "response": {
+        "text": "Hotel Avenida Palace, five nights.",
+        "inputTokens": 1459,
+        "outputTokens": 13,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "99f0d362c75c452f",
+      "response": {
+        "text": "Sixt, picked up in Porto.",
+        "inputTokens": 1722,
+        "outputTokens": 12,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "7c0425439b2ddfc4",
+      "response": {
+        "text": "Four nights total: three in the city hotel and one in the Douro Valley.",
+        "inputTokens": 1451,
+        "outputTokens": 21,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "786d7661c875f19f",
+      "response": {
+        "text": "World Nomads",
+        "inputTokens": 936,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "ef14a7a9ea60af85",
+      "response": {
+        "text": "TAP Air Portugal with one connection each way.",
+        "inputTokens": 1423,
+        "outputTokens": 13,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "55d6e1d64b654015",
+      "response": {
+        "text": "Aisle.",
+        "inputTokens": 741,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "a2b23e33f382af68",
+      "response": {
+        "text": "Sintra",
+        "inputTokens": 1440,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "0ab1e76e7c9bd076",
+      "response": {
+        "text": "Douro Valley.",
+        "inputTokens": 1695,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "0dcdeef1bf35f7ae",
+      "response": {
+        "text": "Airalo eSIM with a Europe data package.",
+        "inputTokens": 1484,
+        "outputTokens": 15,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "86f440f8c8617915",
+      "response": {
+        "text": "The Yeatman, across the river with the view.",
+        "inputTokens": 1436,
+        "outputTokens": 16,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "5f03d024546ec41a",
+      "response": {
+        "text": "TP 267 from Porto.",
+        "inputTokens": 1614,
+        "outputTokens": 11,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "280f74d9de6969a7",
+      "response": {
+        "text": "Porto airport, flight TP 267, early morning.",
+        "inputTokens": 1524,
+        "outputTokens": 15,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "58275182f92ee54f",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1229,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "d1a6333ddc087320",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1401,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "94e62054b7da3612",
+      "response": {
+        "text": "ledgerline-api",
+        "inputTokens": 7508,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "969e66b5234d5ee9",
+      "response": {
+        "text": "PostgreSQL 16",
+        "inputTokens": 7508,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "a3a7fe5be9b22967",
+      "response": {
+        "text": "Drizzle",
+        "inputTokens": 7680,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "f359c7b96f71c46c",
+      "response": {
+        "text": "Fly.io, with the API and worker as separate machine groups.",
+        "inputTokens": 7680,
+        "outputTokens": 18,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "3e48f37b43a45749",
+      "response": {
+        "text": "November 4",
+        "inputTokens": 7836,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "0f92dc888a4a63a6",
+      "response": {
+        "text": "Stripe",
+        "inputTokens": 7838,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "9a8de22378e1f7f7",
+      "response": {
+        "text": "Vitest",
+        "inputTokens": 7979,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "85f0f8a66e14565c",
+      "response": {
+        "text": "staging.ledgerline.app",
+        "inputTokens": 7977,
+        "outputTokens": 10,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "01ab15efa3ce3f1a",
+      "response": {
+        "text": "120 requests per minute per API key.",
+        "inputTokens": 8139,
+        "outputTokens": 13,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "52749041f67fee33",
+      "response": {
+        "text": "INV-2026-",
+        "inputTokens": 8137,
+        "outputTokens": 9,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "9de4d71e98eb880c",
+      "response": {
+        "text": "Sentry",
+        "inputTokens": 8297,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "cf1aa298bbddd70d",
+      "response": {
+        "text": "Node 22",
+        "inputTokens": 8299,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "7624f16bd2a151a6",
+      "response": {
+        "text": "pdfkit",
+        "inputTokens": 8362,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "2d606ce9e00a52a6",
+      "response": {
+        "text": "Clerk",
+        "inputTokens": 8361,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "a46392c80da7cd45",
+      "response": {
+        "text": "Frankfurt",
+        "inputTokens": 8494,
+        "outputTokens": 4,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "4f21b6f8d350c0a8",
+      "response": {
+        "text": "Redis 7.",
+        "inputTokens": 8496,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "4895d688ac409bec",
+      "response": {
+        "text": "30 days",
+        "inputTokens": 8619,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "4bddac0ee41272d2",
+      "response": {
+        "text": "Bramble Studio, a small design agency with three people.",
+        "inputTokens": 8619,
+        "outputTokens": 16,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "5ab094c2a538ec58",
+      "response": {
+        "text": "Okafor",
+        "inputTokens": 8828,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "7b061cc649768a40",
+      "response": {
+        "text": "USD",
+        "inputTokens": 8828,
+        "outputTokens": 4,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "effd72a8875594a6",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 9077,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "39ade7cfcca28d2f",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 9114,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "be8e67cec8e019e3",
+      "response": {
+        "text": "Nokia G-2425, the replacement unit installed during the March 9 technician visit.",
+        "inputTokens": 4197,
+        "outputTokens": 23,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "308cdc21ee192811",
+      "response": {
+        "text": "9 Cedar Court",
+        "inputTokens": 4196,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "3d6a5fe4b961af2e",
+      "response": {
+        "text": "40317",
+        "inputTokens": 4265,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "c118b5f0bb52443f",
+      "response": {
+        "text": "March 2, from your notes.",
+        "inputTokens": 4266,
+        "outputTokens": 11,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "fe583a6a6f07bc73",
+      "response": {
+        "text": "March 9",
+        "inputTokens": 4399,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "e5dffa0869b00351",
+      "response": {
+        "text": "555-0142",
+        "inputTokens": 4397,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "5a9b578dbe8b0d77",
+      "response": {
+        "text": "Mornings, before noon.",
+        "inputTokens": 4434,
+        "outputTokens": 10,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "4f13c2354e815721",
+      "response": {
+        "text": "$79 standard rate, reduced to $63.20 for six months with the SPRING20 promo, plus $10 for static IP and the Stream Basic TV package cost.",
+        "inputTokens": 4433,
+        "outputTokens": 43,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "b1020936bcffb487",
+      "response": {
+        "text": "SPRING20",
+        "inputTokens": 4433,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "31dc68b54f634b82",
+      "response": {
+        "text": "Eero 6",
+        "inputTokens": 4488,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "fd19d663b7d14269",
+      "response": {
+        "text": "$10 a month.",
+        "inputTokens": 4487,
+        "outputTokens": 9,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "0e443efad22f0f2c",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 4490,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "fe800b024259de28",
+      "response": {
+        "text": "940 Mbps",
+        "inputTokens": 4506,
+        "outputTokens": 9,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "178342b18fa85171",
+      "response": {
+        "text": "m.reyes@example.net",
+        "inputTokens": 4503,
+        "outputTokens": 11,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "0765464764a82d53",
+      "response": {
+        "text": "$25, with an additional goodwill credit approved that will appear on the next bill.",
+        "inputTokens": 4504,
+        "outputTokens": 22,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "3450dabe103bd783",
+      "response": {
+        "text": "1.1.1.1 for both primary and secondary, though you said you'll add a different secondary.",
+        "inputTokens": 4503,
+        "outputTokens": 28,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "5be3c571b2a7bd9a",
+      "response": {
+        "text": "Stream Basic.",
+        "inputTokens": 4503,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "c12ed070ca7bc752",
+      "response": {
+        "text": "4471",
+        "inputTokens": 4507,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "4927d03e9a252a5d",
+      "response": {
+        "text": "NF-88214",
+        "inputTokens": 4502,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "ec80d8b0de57338e",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 4502,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "1b4bc95ede1d346a",
+      "response": {
+        "text": "Portugal",
+        "inputTokens": 4425,
+        "outputTokens": 4,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "737bb9b76e221c6a",
+      "response": {
+        "text": "12 days including travel days, departing May 10 and returning May 21.",
+        "inputTokens": 4425,
+        "outputTokens": 23,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "9a3e3ff39665aa91",
+      "response": {
+        "text": "$5,200",
+        "inputTokens": 4564,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "fd5c67b296faabe0",
+      "response": {
+        "text": "May 21st.",
+        "inputTokens": 4565,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "a9edb962d47378a4",
+      "response": {
+        "text": "Your sister Meera.",
+        "inputTokens": 4612,
+        "outputTokens": 9,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "95a9003d419383c7",
+      "response": {
+        "text": "Hotel Avenida Palace, five nights.",
+        "inputTokens": 4616,
+        "outputTokens": 13,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "92b4572123629a85",
+      "response": {
+        "text": "Sixt, picked up in Porto.",
+        "inputTokens": 4717,
+        "outputTokens": 12,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "a10596c3fc2793d7",
+      "response": {
+        "text": "Four nights total: three in the city at The Yeatman and one in the Douro Valley.",
+        "inputTokens": 4717,
+        "outputTokens": 26,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "26b286fa4655e73c",
+      "response": {
+        "text": "World Nomads",
+        "inputTokens": 4810,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "0d763d3cd55ba3f4",
+      "response": {
+        "text": "TAP Air Portugal with one connection each way.",
+        "inputTokens": 4809,
+        "outputTokens": 13,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "e2d7fa696948de3f",
+      "response": {
+        "text": "Aisle for you, window for Meera.",
+        "inputTokens": 4901,
+        "outputTokens": 15,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "01095a8a2322212b",
+      "response": {
+        "text": "Sintra",
+        "inputTokens": 4905,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "7db44421532469f8",
+      "response": {
+        "text": "Douro Valley.",
+        "inputTokens": 4938,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "287b89ce2323f802",
+      "response": {
+        "text": "Airalo eSIM with a Europe data package.",
+        "inputTokens": 4939,
+        "outputTokens": 15,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "71f3c3c717e6051a",
+      "response": {
+        "text": "The Yeatman, across the river with the view.",
+        "inputTokens": 5038,
+        "outputTokens": 16,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "d8a4535697775a05",
+      "response": {
+        "text": "TP 267 from Porto, early morning.",
+        "inputTokens": 5037,
+        "outputTokens": 14,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "17b1654cacef6a49",
+      "response": {
+        "text": "Porto airport, on flight TP 267 early morning on May 21st.",
+        "inputTokens": 5055,
+        "outputTokens": 21,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "47faa59f90f28f1b",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 5062,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "ecf7c6dcd39f4936",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 5057,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "709ecc575e0628fd",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1409,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "be1239d810b996fa",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1409,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "51c368efa496183a",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1408,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "f3c573ca81c041c7",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1408,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "125f26a53d1bf728",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1392,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "44c943fb6df9d685",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1394,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "7f846c1c99726fe3",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1369,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "04e2f0b31e5f253d",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1367,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "f193bf20e2d6ffeb",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1380,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "485ac56a63ff32d1",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1378,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "5c61ebd359a73cf3",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1399,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "5c97f2f523a222a4",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1401,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "89f1a7e55438e6b5",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1324,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "cf1d1919e51aefe4",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1323,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "bff682592773b7fb",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1279,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "2df0774d0732964e",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1281,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "7e929e7442168e2a",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1241,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "22531f5f6cfd8f39",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1241,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "b89acf1877e432ba",
+      "response": {
+        "text": "Okafor",
+        "inputTokens": 1120,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "ca2391989f9964b2",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1120,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "8259bca88e96a9c0",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1069,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "17ebb843f50350b6",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 946,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "0900b303c6e55e68",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1228,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "58ccd4e58bafb86a",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1227,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "184f1291905e28ff",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1105,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "89f6d03f28406213",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1106,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "f7b5cda315b376e3",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1105,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "525781a69497f07f",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1103,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "0c22cec568149c35",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1007,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "11c85d0de46ec8a1",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1006,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "26128cd35c98d144",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1006,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "439aebbfd3c3f3de",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 904,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "71877e255f21b100",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 903,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "54a7ed7a032a8208",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 906,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "2be8baf51dfc73d4",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 766,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "96cb42f65d5c0f11",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 763,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "7222607ccfcbe2d5",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 764,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "c660f30ecf5ee45b",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 763,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "ecc219bba350a8e4",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 763,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "5b9c32c35c0959db",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 767,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "9fd1ee8bae04d9df",
+      "response": {
+        "text": "NF-88214",
+        "inputTokens": 762,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "232d622a768bf6dc",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 762,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "2acc69a87e4c92ca",
+      "response": {
+        "text": "Portugal",
+        "inputTokens": 1298,
+        "outputTokens": 4,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "ba5efe79428614f6",
+      "response": {
+        "text": "Not stated.",
+        "inputTokens": 1298,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "b7b9bc08c08846e8",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1292,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "e2605a9f0e3e0675",
+      "response": {
+        "text": "Not stated - you told me the return flight number (TP 267) but not the specific date.",
+        "inputTokens": 1293,
+        "outputTokens": 25,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "0e285e5333c818d1",
+      "response": {
+        "text": "Meera is traveling with you.",
+        "inputTokens": 1162,
+        "outputTokens": 11,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "80c798598cdab359",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1166,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "caa0fc95a3a6e2f9",
+      "response": {
+        "text": "Sixt, picked up in Porto.",
+        "inputTokens": 1107,
+        "outputTokens": 12,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "1c4f38de4d82d38f",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1107,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "4f907a3519f6b3c0",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1032,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "a21b606022b073be",
+      "response": {
+        "text": "TAP Air Portugal (TP 267 from Porto).",
+        "inputTokens": 1031,
+        "outputTokens": 16,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "6dbb6d585d389c29",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 993,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "f536e78237934cc5",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 997,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "4f447a5a9f92ee60",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 893,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "95ed40ade795439b",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 894,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "6d66ec4d61fb9d6a",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 853,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "2b4400b0616b6a4d",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 852,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "9f4d29ec27d84fe9",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 747,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "4eecf84cd445ed17",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 754,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "e5fa96e45632d287",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 749,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "1de76bfce0445ecc",
+      "response": {
+        "text": "ledgerline-api",
+        "inputTokens": 7549,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "0647dd5a8847c38c",
+      "response": {
+        "text": "PostgreSQL 16",
+        "inputTokens": 7549,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "98b9b9e03e3a886e",
+      "response": {
+        "text": "Drizzle",
+        "inputTokens": 7721,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "28b10a6001d2f514",
+      "response": {
+        "text": "Fly.io, with the API and worker as separate machine groups.",
+        "inputTokens": 7721,
+        "outputTokens": 18,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "91a55d3d7caec63a",
+      "response": {
+        "text": "November 4",
+        "inputTokens": 7877,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "621311e035439906",
+      "response": {
+        "text": "Stripe",
+        "inputTokens": 7879,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "1ebce9c3f925234c",
+      "response": {
+        "text": "Vitest",
+        "inputTokens": 8020,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "e58378f0c35cc208",
+      "response": {
+        "text": "staging.ledgerline.app",
+        "inputTokens": 8018,
+        "outputTokens": 10,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "8c73d238cde268a9",
+      "response": {
+        "text": "120 requests per minute per API key.",
+        "inputTokens": 8180,
+        "outputTokens": 13,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "995ef5cbe6e7bd1a",
+      "response": {
+        "text": "INV-2026-",
+        "inputTokens": 8178,
+        "outputTokens": 9,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "a6c2c50434008a8d",
+      "response": {
+        "text": "Sentry",
+        "inputTokens": 8338,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "d7445fac23b6b4dd",
+      "response": {
+        "text": "Node 22",
+        "inputTokens": 8340,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "8d193c884c9fff3a",
+      "response": {
+        "text": "pdfkit",
+        "inputTokens": 8403,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "829b2767b66c4787",
+      "response": {
+        "text": "Clerk",
+        "inputTokens": 8402,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "91fafc8218a12f28",
+      "response": {
+        "text": "Frankfurt",
+        "inputTokens": 8535,
+        "outputTokens": 4,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "611a3ea4e9e1b8a6",
+      "response": {
+        "text": "Redis 7",
+        "inputTokens": 8537,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "e6d1565e2f9be4ca",
+      "response": {
+        "text": "30 days",
+        "inputTokens": 8660,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "cf44dc22cf18bcd2",
+      "response": {
+        "text": "Bramble Studio, a small design agency with three people.",
+        "inputTokens": 8660,
+        "outputTokens": 16,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "56b579d54a9eabc6",
+      "response": {
+        "text": "Okafor",
+        "inputTokens": 8869,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "fbc72fbde59f6600",
+      "response": {
+        "text": "USD",
+        "inputTokens": 8869,
+        "outputTokens": 4,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "9ece6900fa25e0a4",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 9118,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "5acf28c967a2f695",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 9155,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "7298a6b3a2afc8e8",
+      "response": {
+        "text": "Nokia G-2425, the replacement unit installed during the March 9 technician visit.",
+        "inputTokens": 4233,
+        "outputTokens": 23,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "7b073546a22cd19e",
+      "response": {
+        "text": "9 Cedar Court",
+        "inputTokens": 4232,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "e4c81b38439e48f5",
+      "response": {
+        "text": "40317",
+        "inputTokens": 4301,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "5d767babbf2e66d1",
+      "response": {
+        "text": "March 2, from your notes.",
+        "inputTokens": 4302,
+        "outputTokens": 11,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "12e9fa348d37afc8",
+      "response": {
+        "text": "March 9",
+        "inputTokens": 4435,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "156d8d286b8c3cc7",
+      "response": {
+        "text": "555-0142",
+        "inputTokens": 4433,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "412de31011f6b1f4",
+      "response": {
+        "text": "Mornings, before noon.",
+        "inputTokens": 4470,
+        "outputTokens": 10,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "3d6306899ab41f99",
+      "response": {
+        "text": "$79 standard rate, reduced to $63.20 for six months with the SPRING20 promo, plus $10 for the static IP and the Stream Basic TV package cost.",
+        "inputTokens": 4469,
+        "outputTokens": 44,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "53f225cf41ddc109",
+      "response": {
+        "text": "SPRING20",
+        "inputTokens": 4469,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "3e08b3ce190b13b6",
+      "response": {
+        "text": "Eero 6",
+        "inputTokens": 4524,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "b2f763202baaa80b",
+      "response": {
+        "text": "$10 a month.",
+        "inputTokens": 4523,
+        "outputTokens": 9,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "5084be174c265136",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 4526,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "59f4c4d2ca63f658",
+      "response": {
+        "text": "940 Mbps",
+        "inputTokens": 4542,
+        "outputTokens": 9,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "51490c6534d35e91",
+      "response": {
+        "text": "m.reyes@example.net",
+        "inputTokens": 4539,
+        "outputTokens": 11,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "e3c78a3e60a28bf5",
+      "response": {
+        "text": "$25, with an additional goodwill credit approved to appear on the next bill.",
+        "inputTokens": 4540,
+        "outputTokens": 21,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "176b5a833d564e61",
+      "response": {
+        "text": "1.1.1.1 for both primary and secondary, though you said you'll add a different secondary.",
+        "inputTokens": 4539,
+        "outputTokens": 28,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "45b520d600c5483b",
+      "response": {
+        "text": "Stream Basic",
+        "inputTokens": 4539,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "921cd37e2df72524",
+      "response": {
+        "text": "4471",
+        "inputTokens": 4543,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "31a66400e93ce7f1",
+      "response": {
+        "text": "NF-88214",
+        "inputTokens": 4538,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "b6d0987d759ef7af",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 4538,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "a92d152e4222ffc8",
+      "response": {
+        "text": "Portugal.",
+        "inputTokens": 4462,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "fd64ee148ac2bd9e",
+      "response": {
+        "text": "12 days including travel days, departing May 10 and returning May 21.",
+        "inputTokens": 4462,
+        "outputTokens": 23,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "bdd947bb44512322",
+      "response": {
+        "text": "$5,200",
+        "inputTokens": 4601,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "22fb130ebbc16e9e",
+      "response": {
+        "text": "May 21st.",
+        "inputTokens": 4602,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "13d756469bb3534f",
+      "response": {
+        "text": "Your sister Meera.",
+        "inputTokens": 4649,
+        "outputTokens": 9,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "2bfd52a8979a216a",
+      "response": {
+        "text": "Hotel Avenida Palace, five nights.",
+        "inputTokens": 4653,
+        "outputTokens": 13,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "625b581c8471a10d",
+      "response": {
+        "text": "Sixt, picked up in Porto.",
+        "inputTokens": 4754,
+        "outputTokens": 12,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "67d7ac367ec1ebb3",
+      "response": {
+        "text": "Four nights total: three in the city at The Yeatman and one in the Douro Valley.",
+        "inputTokens": 4754,
+        "outputTokens": 26,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "68394921304647ef",
+      "response": {
+        "text": "World Nomads",
+        "inputTokens": 4847,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "3045c6dbd617dda4",
+      "response": {
+        "text": "TAP Air Portugal with one connection each way.",
+        "inputTokens": 4846,
+        "outputTokens": 13,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "446844ee7edb5c83",
+      "response": {
+        "text": "Aisle for you, window for Meera.",
+        "inputTokens": 4938,
+        "outputTokens": 15,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "fd07979579dc6cc7",
+      "response": {
+        "text": "Sintra",
+        "inputTokens": 4942,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "1a131846ec2ea8ce",
+      "response": {
+        "text": "Douro Valley",
+        "inputTokens": 4975,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "3fd998f52c7066db",
+      "response": {
+        "text": "Airalo eSIM with a Europe data package.",
+        "inputTokens": 4976,
+        "outputTokens": 15,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "eade447e38ddc8bb",
+      "response": {
+        "text": "The Yeatman, across the river with the view.",
+        "inputTokens": 5075,
+        "outputTokens": 16,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "31ea063fc30a4efd",
+      "response": {
+        "text": "TP 267 from Porto, early morning.",
+        "inputTokens": 5074,
+        "outputTokens": 14,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "0bccb11049c55f41",
+      "response": {
+        "text": "Porto airport, on flight TP 267 early morning on May 21st.",
+        "inputTokens": 5092,
+        "outputTokens": 21,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "f796c638f22caa21",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 5099,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "a2bca79e9b8e2ef4",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 5094,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "1de76bfce0445ecc",
+      "response": {
+        "text": "ledgerline-api",
+        "inputTokens": 7549,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "0647dd5a8847c38c",
+      "response": {
+        "text": "PostgreSQL 16",
+        "inputTokens": 7549,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "98b9b9e03e3a886e",
+      "response": {
+        "text": "Drizzle",
+        "inputTokens": 7721,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "28b10a6001d2f514",
+      "response": {
+        "text": "Fly.io, with the API and worker as separate machine groups.",
+        "inputTokens": 7721,
+        "outputTokens": 18,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "91a55d3d7caec63a",
+      "response": {
+        "text": "November 4",
+        "inputTokens": 7877,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "621311e035439906",
+      "response": {
+        "text": "Stripe",
+        "inputTokens": 7879,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "1ebce9c3f925234c",
+      "response": {
+        "text": "Vitest",
+        "inputTokens": 8020,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "e58378f0c35cc208",
+      "response": {
+        "text": "staging.ledgerline.app",
+        "inputTokens": 8018,
+        "outputTokens": 10,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "8c73d238cde268a9",
+      "response": {
+        "text": "120 requests per minute per API key.",
+        "inputTokens": 8180,
+        "outputTokens": 13,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "995ef5cbe6e7bd1a",
+      "response": {
+        "text": "INV-2026-",
+        "inputTokens": 8178,
+        "outputTokens": 9,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "a6c2c50434008a8d",
+      "response": {
+        "text": "Sentry",
+        "inputTokens": 8338,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "d7445fac23b6b4dd",
+      "response": {
+        "text": "Node 22",
+        "inputTokens": 8340,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "8d193c884c9fff3a",
+      "response": {
+        "text": "pdfkit",
+        "inputTokens": 8403,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "829b2767b66c4787",
+      "response": {
+        "text": "Clerk",
+        "inputTokens": 8402,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "91fafc8218a12f28",
+      "response": {
+        "text": "Frankfurt",
+        "inputTokens": 8535,
+        "outputTokens": 4,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "611a3ea4e9e1b8a6",
+      "response": {
+        "text": "Redis 7",
+        "inputTokens": 8537,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "e6d1565e2f9be4ca",
+      "response": {
+        "text": "30 days",
+        "inputTokens": 8660,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "cf44dc22cf18bcd2",
+      "response": {
+        "text": "Bramble Studio, a small design agency with three people.",
+        "inputTokens": 8660,
+        "outputTokens": 16,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "56b579d54a9eabc6",
+      "response": {
+        "text": "Okafor",
+        "inputTokens": 8869,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "fbc72fbde59f6600",
+      "response": {
+        "text": "USD",
+        "inputTokens": 8869,
+        "outputTokens": 4,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "9ece6900fa25e0a4",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 9118,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "5acf28c967a2f695",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 9155,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "7298a6b3a2afc8e8",
+      "response": {
+        "text": "Nokia G-2425, the replacement unit installed during the March 9 technician visit.",
+        "inputTokens": 4233,
+        "outputTokens": 23,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "7b073546a22cd19e",
+      "response": {
+        "text": "9 Cedar Court",
+        "inputTokens": 4232,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "e4c81b38439e48f5",
+      "response": {
+        "text": "40317",
+        "inputTokens": 4301,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "5d767babbf2e66d1",
+      "response": {
+        "text": "March 2, from your notes.",
+        "inputTokens": 4302,
+        "outputTokens": 11,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "12e9fa348d37afc8",
+      "response": {
+        "text": "March 9",
+        "inputTokens": 4435,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "156d8d286b8c3cc7",
+      "response": {
+        "text": "555-0142",
+        "inputTokens": 4433,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "412de31011f6b1f4",
+      "response": {
+        "text": "Mornings, before noon.",
+        "inputTokens": 4470,
+        "outputTokens": 10,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "3d6306899ab41f99",
+      "response": {
+        "text": "$79 standard rate, currently $63.20 with the SPRING20 promo for six months, plus $10 for static IP and the Stream Basic TV package cost.",
+        "inputTokens": 4469,
+        "outputTokens": 42,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "53f225cf41ddc109",
+      "response": {
+        "text": "SPRING20",
+        "inputTokens": 4469,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "3e08b3ce190b13b6",
+      "response": {
+        "text": "Eero 6",
+        "inputTokens": 4524,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "b2f763202baaa80b",
+      "response": {
+        "text": "$10 a month.",
+        "inputTokens": 4523,
+        "outputTokens": 9,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "5084be174c265136",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 4526,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "59f4c4d2ca63f658",
+      "response": {
+        "text": "940 Mbps",
+        "inputTokens": 4542,
+        "outputTokens": 9,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "51490c6534d35e91",
+      "response": {
+        "text": "m.reyes@example.net",
+        "inputTokens": 4539,
+        "outputTokens": 11,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "e3c78a3e60a28bf5",
+      "response": {
+        "text": "$25, with an additional goodwill credit approved that will appear on the next bill.",
+        "inputTokens": 4540,
+        "outputTokens": 22,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "176b5a833d564e61",
+      "response": {
+        "text": "1.1.1.1 for both primary and secondary, though you said you'll add a different secondary.",
+        "inputTokens": 4539,
+        "outputTokens": 28,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "45b520d600c5483b",
+      "response": {
+        "text": "Stream Basic",
+        "inputTokens": 4539,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "921cd37e2df72524",
+      "response": {
+        "text": "4471",
+        "inputTokens": 4543,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "31a66400e93ce7f1",
+      "response": {
+        "text": "NF-88214",
+        "inputTokens": 4538,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "b6d0987d759ef7af",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 4538,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "a92d152e4222ffc8",
+      "response": {
+        "text": "Portugal.",
+        "inputTokens": 4462,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "fd64ee148ac2bd9e",
+      "response": {
+        "text": "12 days including travel days, departing May 10 and returning May 21.",
+        "inputTokens": 4462,
+        "outputTokens": 23,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "bdd947bb44512322",
+      "response": {
+        "text": "$5,200",
+        "inputTokens": 4601,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "22fb130ebbc16e9e",
+      "response": {
+        "text": "May 21st.",
+        "inputTokens": 4602,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "13d756469bb3534f",
+      "response": {
+        "text": "Your sister Meera.",
+        "inputTokens": 4649,
+        "outputTokens": 9,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "2bfd52a8979a216a",
+      "response": {
+        "text": "Hotel Avenida Palace, five nights.",
+        "inputTokens": 4653,
+        "outputTokens": 13,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "625b581c8471a10d",
+      "response": {
+        "text": "Sixt, picked up in Porto.",
+        "inputTokens": 4754,
+        "outputTokens": 12,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "67d7ac367ec1ebb3",
+      "response": {
+        "text": "Four nights total: three in the city at The Yeatman and one in the Douro Valley.",
+        "inputTokens": 4754,
+        "outputTokens": 26,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "68394921304647ef",
+      "response": {
+        "text": "World Nomads",
+        "inputTokens": 4847,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "3045c6dbd617dda4",
+      "response": {
+        "text": "TAP Air Portugal with one connection each way.",
+        "inputTokens": 4846,
+        "outputTokens": 13,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "446844ee7edb5c83",
+      "response": {
+        "text": "Aisle for you, window for Meera.",
+        "inputTokens": 4938,
+        "outputTokens": 15,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "fd07979579dc6cc7",
+      "response": {
+        "text": "Sintra",
+        "inputTokens": 4942,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "1a131846ec2ea8ce",
+      "response": {
+        "text": "Douro Valley",
+        "inputTokens": 4975,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "3fd998f52c7066db",
+      "response": {
+        "text": "Airalo eSIM with a Europe data package.",
+        "inputTokens": 4976,
+        "outputTokens": 15,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "eade447e38ddc8bb",
+      "response": {
+        "text": "The Yeatman, across the river with the view.",
+        "inputTokens": 5075,
+        "outputTokens": 16,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "31ea063fc30a4efd",
+      "response": {
+        "text": "TP 267 from Porto, early morning.",
+        "inputTokens": 5074,
+        "outputTokens": 14,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "0bccb11049c55f41",
+      "response": {
+        "text": "Porto airport, on flight TP 267 early morning on May 21st.",
+        "inputTokens": 5092,
+        "outputTokens": 21,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "f796c638f22caa21",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 5099,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "a2bca79e9b8e2ef4",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 5094,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "b89939bbaa0c9041",
+      "response": {
+        "text": "ledgerline-api",
+        "inputTokens": 1603,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "1ad086f1e86ab327",
+      "response": {
+        "text": "PostgreSQL 16",
+        "inputTokens": 1771,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "7ecf0f1f8194928f",
+      "response": {
+        "text": "Drizzle",
+        "inputTokens": 1364,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "b78c28c1d975b08b",
+      "response": {
+        "text": "Fly.io",
+        "inputTokens": 1770,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "7d4897ed6e0be34b",
+      "response": {
+        "text": "November 4.",
+        "inputTokens": 1884,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "aebf82056c47f9c4",
+      "response": {
+        "text": "Stripe.",
+        "inputTokens": 2095,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "e6bb6a58d349400b",
+      "response": {
+        "text": "Vitest for the app, Node built-in test runner for a couple of scripts.",
+        "inputTokens": 1788,
+        "outputTokens": 22,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "cc97a52470daf399",
+      "response": {
+        "text": "staging.ledgerline.app",
+        "inputTokens": 2043,
+        "outputTokens": 10,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "56f177ec02de0906",
+      "response": {
+        "text": "120 requests per minute per API key.",
+        "inputTokens": 1974,
+        "outputTokens": 13,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "8a727bf9f022852d",
+      "response": {
+        "text": "INV-2026-",
+        "inputTokens": 2413,
+        "outputTokens": 9,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "8f58763fc4705f88",
+      "response": {
+        "text": "Sentry.",
+        "inputTokens": 1465,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "98467c78fcdadbf6",
+      "response": {
+        "text": "Node 22.",
+        "inputTokens": 1845,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "7516754420f97026",
+      "response": {
+        "text": "pdfkit",
+        "inputTokens": 1804,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "520c1ed7bfca0a93",
+      "response": {
+        "text": "Clerk, with sessions for the web app and API keys for programmatic access.",
+        "inputTokens": 2120,
+        "outputTokens": 20,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "3194fb1ea239c118",
+      "response": {
+        "text": "Frankfurt",
+        "inputTokens": 1132,
+        "outputTokens": 4,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "16118d6c16458b83",
+      "response": {
+        "text": "Redis 7.",
+        "inputTokens": 1678,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "9e2a227d4ae3a29d",
+      "response": {
+        "text": "Thirty days.",
+        "inputTokens": 1782,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "ca3ecd68611d5e97",
+      "response": {
+        "text": "Bramble Studio, a small design agency with three people.",
+        "inputTokens": 1399,
+        "outputTokens": 16,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "c78cf480ffea8d73",
+      "response": {
+        "text": "Okafor",
+        "inputTokens": 1463,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "14a92568549648cd",
+      "response": {
+        "text": "USD.",
+        "inputTokens": 2121,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "e87e24b2e52e487a",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1987,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "7f7d27f770eb99f7",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1871,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "772c3271490b8133",
+      "response": {
+        "text": "Nokia G-2425, the replacement installed during the visit.",
+        "inputTokens": 1559,
+        "outputTokens": 16,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "418a969298b60ea0",
+      "response": {
+        "text": "9 Cedar Court",
+        "inputTokens": 1572,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "7d1ce55cdbb669ef",
+      "response": {
+        "text": "40317",
+        "inputTokens": 1369,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "9609585e804e73e3",
+      "response": {
+        "text": "March 2, from your notes.",
+        "inputTokens": 1203,
+        "outputTokens": 11,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "8060e5197a85a57b",
+      "response": {
+        "text": "March 9, morning slot.",
+        "inputTokens": 1170,
+        "outputTokens": 10,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "d70903383ae555b8",
+      "response": {
+        "text": "555-0142",
+        "inputTokens": 756,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "0b3a01e19962f8ea",
+      "response": {
+        "text": "Mornings, before noon.",
+        "inputTokens": 550,
+        "outputTokens": 10,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "bc0455a5069e8efc",
+      "response": {
+        "text": "$79 per month, dropping to around $63 for six months with the promo code, then back to $79, plus the static IP add-on fee which was not stated.",
+        "inputTokens": 1279,
+        "outputTokens": 43,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "2b7eae7c6fc0b6ef",
+      "response": {
+        "text": "SPRING20",
+        "inputTokens": 1179,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "3d55b4c299288bc5",
+      "response": {
+        "text": "Eero 6",
+        "inputTokens": 1435,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "7f34dde93fa1dec2",
+      "response": {
+        "text": "$10 a month.",
+        "inputTokens": 1050,
+        "outputTokens": 9,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "b92f4721b7c709a5",
+      "response": {
+        "text": "The 15th each month.",
+        "inputTokens": 1107,
+        "outputTokens": 10,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "1817d624fdc47b5e",
+      "response": {
+        "text": "940 Mbps",
+        "inputTokens": 1157,
+        "outputTokens": 9,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "a0dd25516536f746",
+      "response": {
+        "text": "m.reyes@example.net",
+        "inputTokens": 1174,
+        "outputTokens": 11,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "e308f9f9f1103666",
+      "response": {
+        "text": "$25 standard credit plus an approved goodwill credit, combined covering most of one month at promotional rate.",
+        "inputTokens": 885,
+        "outputTokens": 26,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "17845123f3451251",
+      "response": {
+        "text": "1.1.1.1 for both primary and secondary.",
+        "inputTokens": 1176,
+        "outputTokens": 18,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "1a69a9684e447628",
+      "response": {
+        "text": "Stream Basic.",
+        "inputTokens": 1197,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "bb81547138a63303",
+      "response": {
+        "text": "4471",
+        "inputTokens": 896,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "02039ae5d4827443",
+      "response": {
+        "text": "NF-88214",
+        "inputTokens": 1174,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "70fedd91290577f1",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1343,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "59faa0930149a731",
+      "response": {
+        "text": "Portugal",
+        "inputTokens": 919,
+        "outputTokens": 4,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "1723c02235ad7711",
+      "response": {
+        "text": "12 days including travel days.",
+        "inputTokens": 1864,
+        "outputTokens": 11,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "7a8968175f43f7c6",
+      "response": {
+        "text": "$5,200",
+        "inputTokens": 1166,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "169d725689b12291",
+      "response": {
+        "text": "Not stated.",
+        "inputTokens": 1628,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "2bc445d05d8422fb",
+      "response": {
+        "text": "Your sister Meera.",
+        "inputTokens": 1001,
+        "outputTokens": 9,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "cc83ccb7d75ea18c",
+      "response": {
+        "text": "Hotel Avenida Palace, five nights.",
+        "inputTokens": 1459,
+        "outputTokens": 13,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "99f0d362c75c452f",
+      "response": {
+        "text": "Sixt, picked up in Porto.",
+        "inputTokens": 1722,
+        "outputTokens": 12,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "7c0425439b2ddfc4",
+      "response": {
+        "text": "Four nights total: three in the city hotel and one in the Douro Valley.",
+        "inputTokens": 1451,
+        "outputTokens": 21,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "786d7661c875f19f",
+      "response": {
+        "text": "World Nomads",
+        "inputTokens": 936,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "ef14a7a9ea60af85",
+      "response": {
+        "text": "TAP Air Portugal with one connection each way.",
+        "inputTokens": 1423,
+        "outputTokens": 13,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "55d6e1d64b654015",
+      "response": {
+        "text": "Aisle.",
+        "inputTokens": 741,
+        "outputTokens": 7,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "a2b23e33f382af68",
+      "response": {
+        "text": "Sintra",
+        "inputTokens": 1440,
+        "outputTokens": 6,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "0ab1e76e7c9bd076",
+      "response": {
+        "text": "Douro Valley.",
+        "inputTokens": 1695,
+        "outputTokens": 8,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "0dcdeef1bf35f7ae",
+      "response": {
+        "text": "Airalo eSIM with a Europe data package.",
+        "inputTokens": 1484,
+        "outputTokens": 15,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "86f440f8c8617915",
+      "response": {
+        "text": "The Yeatman, across the river with the view.",
+        "inputTokens": 1436,
+        "outputTokens": 16,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "5f03d024546ec41a",
+      "response": {
+        "text": "TP 267 from Porto.",
+        "inputTokens": 1614,
+        "outputTokens": 11,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "280f74d9de6969a7",
+      "response": {
+        "text": "Porto airport, flight TP 267, early morning.",
+        "inputTokens": 1524,
+        "outputTokens": 15,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "58275182f92ee54f",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1229,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "d1a6333ddc087320",
+      "response": {
+        "text": "not stated",
+        "inputTokens": 1401,
+        "outputTokens": 5,
+        "stopReason": "end_turn"
+      }
+    }
+  ]
+}

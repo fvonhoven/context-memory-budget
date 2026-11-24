@@ -1,0 +1,452 @@
+{
+  "id": "project",
+  "title": "Ledgerline: a multi-week software project chat",
+  "system": "You are a senior engineering assistant. You help the user ship their product, answer questions about their stack and decisions, and give concrete code when asked. Be concise. If a question depends on something the user never told you, say so.",
+  "pinned": [
+    "User name: Dana Okafor",
+    "Project: Ledgerline, an invoicing app for freelancers",
+    "Dana prefers TypeScript examples"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "text": "Hi, I'm Dana Okafor. I'm building Ledgerline, an invoicing app for freelancers, and I want to work through it with you over the next few weeks. Let's start with the basics so you have context. The repo name is ledgerline-api. It's a TypeScript service and I prefer TypeScript examples throughout."
+    },
+    {
+      "role": "assistant",
+      "text": "Good to meet you, Dana. I'll keep TypeScript as the default for every example. Before we go deep, it would help to fix a few decisions up front so later answers stay consistent: the database and how you talk to it, where the service is deployed, how payments are collected, and what the test setup looks like. Send those over whenever you have them and I'll treat them as settled unless you change them later. For the repo itself, a small layout that has served invoicing services well: src/http for route handlers, src/domain for invoice and customer logic with no framework imports, src/db for schema and queries, and src/jobs for anything that runs off the request path such as PDF rendering and reminder emails. Keeping domain logic free of HTTP and database types makes the invoice math testable without a running server."
+    },
+    {
+      "role": "user",
+      "text": "The database is PostgreSQL 16. I already have it running locally in Docker and on a managed instance for staging. One question: should invoice totals be stored or computed?"
+    },
+    {
+      "role": "assistant",
+      "text": "Store them, but derive them in one place. Compute the total from the line items in the domain layer, then persist the result on the invoice row along with a version of the tax rules used. Reasons: reporting queries should not re-sum line items for every dashboard load; an invoice that was sent must show the same total forever even if tax rules change; and a stored total lets you add a database check constraint that the sum of line items matches. Use numeric(14,2) for money columns rather than floating point. In the domain code represent amounts as integer cents and only convert to decimal at the boundary. A simple invariant test: for any set of line items, total equals subtotal plus tax minus discount, and the stored total equals the recomputed one."
+    },
+    {
+      "role": "user",
+      "text": "Makes sense. The ORM is Drizzle. I like that the schema lives in TypeScript. Can you sketch the invoice and line item tables?"
+    },
+    {
+      "role": "assistant",
+      "text": "Here is a starting point in Drizzle's pg-core style.\n\n```ts\nimport { pgTable, uuid, text, numeric, timestamp, integer } from 'drizzle-orm/pg-core';\n\nexport const invoices = pgTable('invoices', {\n  id: uuid('id').primaryKey().defaultRandom(),\n  customerId: uuid('customer_id').notNull(),\n  number: text('number').notNull().unique(),\n  status: text('status').notNull().default('draft'),\n  currency: text('currency').notNull(),\n  subtotalCents: integer('subtotal_cents').notNull(),\n  taxCents: integer('tax_cents').notNull(),\n  totalCents: integer('total_cents').notNull(),\n  issuedAt: timestamp('issued_at', { withTimezone: true }),\n  dueAt: timestamp('due_at', { withTimezone: true }),\n});\n\nexport const lineItems = pgTable('line_items', {\n  id: uuid('id').primaryKey().defaultRandom(),\n  invoiceId: uuid('invoice_id').notNull().references(() => invoices.id),\n  description: text('description').notNull(),\n  quantity: numeric('quantity', { precision: 10, scale: 3 }).notNull(),\n  unitCents: integer('unit_cents').notNull(),\n  position: integer('position').notNull(),\n});\n```\n\nI used integer cents to match the domain representation. Quantity is numeric because freelancers bill fractional hours. Add an index on (invoice_id, position) for ordered reads."
+    },
+    {
+      "role": "user",
+      "text": "Great. The deploy target is Render. I have a web service and a managed database there. What should the health check do?"
+    },
+    {
+      "role": "assistant",
+      "text": "Two endpoints, not one. A liveness check that returns 200 as long as the process is up, and a readiness check that actually touches dependencies: run SELECT 1 against the database with a short timeout, and if you later add a cache or queue, ping those too. Point the platform's health check at readiness so a deploy with a bad database URL never receives traffic. Keep the readiness timeout under two seconds and return a small JSON body listing each dependency and its status; it makes incidents much easier to read. One caution: do not make readiness depend on third party APIs like the payment provider. If that provider has an outage your service should still serve read traffic and queue writes."
+    },
+    {
+      "role": "user",
+      "text": "Timeline: the launch date is October 14. That gives me about six weeks. I'm most worried about payments and PDF generation. Where should I start?"
+    },
+    {
+      "role": "assistant",
+      "text": "Start with the invoice lifecycle end to end in the plainest form: create draft, add line items, finalize, mark paid manually. That path exercises the schema, the totals logic and the state machine, and it is what every other feature hangs off. Payments come second because they are mostly integration work once the lifecycle exists. PDF generation third, and do it in a background job from the start so a slow render never blocks a request. A rough six week split: week one lifecycle and tests, week two auth and customer management, weeks three and four payments including webhooks, week five PDFs and email, week six hardening, a staging soak and the launch checklist. Leave the last week deliberately empty of new features."
+    },
+    {
+      "role": "user",
+      "text": "The payment provider is Stripe. Hosted checkout for now, maybe payment links later. What's the minimal integration?"
+    },
+    {
+      "role": "assistant",
+      "text": "Minimal and safe: when an invoice is finalized, create a checkout session server side with the invoice total, currency and a reference to your invoice id in the metadata. Redirect the customer to the hosted page. Then handle exactly one webhook event to start with, the one that says the session completed and was paid. Verify the webhook signature using the raw request body, look up the invoice by the metadata reference, and mark it paid inside a transaction that also records the payment id. Make the handler idempotent: if the invoice is already paid with the same payment id, return 200 and do nothing. Store every incoming event in a table before processing so you can replay if the handler had a bug. Do not trust the redirect back to your success page as proof of payment; only the webhook counts."
+    },
+    {
+      "role": "user",
+      "text": "The test runner is Vitest. I want fast unit tests for the domain and a smaller set of integration tests against a real database. How do you organize that?"
+    },
+    {
+      "role": "assistant",
+      "text": "Split by cost, not by folder. Domain tests import pure functions and run in milliseconds; put them next to the code as *.test.ts and run them on every save. Integration tests get a *.int.test.ts suffix and a separate config that starts against a real database URL, truncates tables between tests, and runs in CI and before a deploy. A small helper that wraps each integration test in a transaction and rolls it back at the end is faster than truncation and keeps tests independent. For the invoice state machine, table driven tests work well: a list of (fromStatus, action, expectedStatus or expectedError) rows. For totals, a handful of property style tests that generate random line items and check the invariants we discussed."
+    },
+    {
+      "role": "user",
+      "text": "The staging URL is staging.ledgerline.app. I'd like to keep staging as close to production as possible. Any rules of thumb?"
+    },
+    {
+      "role": "assistant",
+      "text": "Same container image, same database engine version, same environment variable names with different values, and the same deploy process. Differences should be data and keys only. Use the payment provider's test mode keys on staging and real keys in production, selected by environment variable, never by hostname checks in code. Seed staging with a small realistic dataset from a script committed to the repo so anyone can rebuild it. Put a visible banner or a distinct favicon on the staging UI so nobody sends a real invoice from the wrong place. Finally, run the same smoke test against staging after every deploy that you will later run against production."
+    },
+    {
+      "role": "user",
+      "text": "Let's talk about protecting the API. The API rate limit is 120 requests per minute per API key. Should this live in the app or at the edge?"
+    },
+    {
+      "role": "assistant",
+      "text": "For a per key limit the app has to be involved, because only the app knows which key made the request. A token bucket per key with a capacity of 120 and a refill of 2 per second matches your number and allows short bursts. Keep the bucket state in the cache if you add one, otherwise an in-process map is fine while you run a single instance. Return 429 with a Retry-After header and a small JSON body. Two extras that pay off: exempt the webhook endpoint from the per key limit since it is authenticated differently, and log the key id and the remaining budget on every 429 so you can see who is hitting the wall before they email you."
+    },
+    {
+      "role": "user",
+      "text": "Invoice numbering next. The invoice number prefix is INV-2026-. Then a sequential number. Customers care that there are no gaps."
+    },
+    {
+      "role": "assistant",
+      "text": "Gapless sequences are the one place where a plain database sequence is wrong, because a rolled back transaction consumes a value. The reliable pattern is a counters table with one row per prefix and a SELECT ... FOR UPDATE inside the same transaction that finalizes the invoice. Read the current value, increment it, write the invoice with the new number, commit. Concurrent finalizations serialize on that row, which is fine at freelancer volume. Assign the number only at finalization, never at draft creation, so deleted drafts cannot create gaps. Format it as the prefix followed by a zero padded counter, and store the formatted string on the invoice so it is immutable even if you change the format later."
+    },
+    {
+      "role": "user",
+      "text": "The default currency is USD. Customers can override per invoice. Should I support multiple currencies on one invoice?"
+    },
+    {
+      "role": "assistant",
+      "text": "No. One currency per invoice, and reject line items in any other. Mixed currency invoices need exchange rates, a rate date, and rounding rules that customers will argue about. Store the currency code on the invoice, validate it against a fixed list, and format amounts with the right minor unit count since not every currency has two decimals. If a freelancer works in several currencies they create separate invoices. For reporting across currencies you can convert at read time using a rates table, and label the report clearly as an estimate."
+    },
+    {
+      "role": "user",
+      "text": "The error tracker is Sentry. What should I make sure gets captured, beyond unhandled exceptions?"
+    },
+    {
+      "role": "assistant",
+      "text": "Attach the request id, the API key id (not the key), and the invoice id when there is one, as tags, so you can search by them. Capture handled failures that matter: a webhook signature that failed verification, a payment event that referenced an unknown invoice, a PDF render that exceeded its time budget. Those are not crashes but they are the incidents you will actually investigate. Set the release to the git commit so a regression maps to a deploy. And add a tiny wrapper so domain code never imports the tracker directly; it throws typed errors and the HTTP layer decides what to report."
+    },
+    {
+      "role": "user",
+      "text": "Runtime detail: the Node version is 22. I'm using the built in test runner for a couple of scripts but Vitest for the app. Anything I should turn on?"
+    },
+    {
+      "role": "assistant",
+      "text": "A few flags worth setting in your start script. Run with --enable-source-maps so stack traces point at TypeScript lines. Set --max-old-space-size explicitly to something below the container memory limit so the process fails with a clear out of memory error instead of being killed silently. Use the built in fetch and the built in test runner where you can to keep dependencies down. If you compile with tsc, target ES2022 and keep the module setting at NodeNext so import paths carry their extensions. Also pin the exact minor in your engines field and in the container image so local and production never drift."
+    },
+    {
+      "role": "user",
+      "text": "For documents: the PDF library is pdfkit. I chose it because it doesn't need a browser. Should rendering be sync or in a job?"
+    },
+    {
+      "role": "assistant",
+      "text": "In a job, always. Even a fast renderer occasionally takes a second or two on a large invoice, and you do not want that inside a request that also holds a database connection. The flow: finalize creates a job with the invoice id; the worker loads the invoice, renders the document to a buffer, uploads it to object storage under a key derived from the invoice id and a content hash, and writes the storage key back on the invoice row. The API serves a signed download URL. Render from a snapshot of the invoice data taken at finalization so later edits to a customer name do not change an issued document. Keep fonts bundled with the image; missing fonts are the most common production only rendering bug."
+    },
+    {
+      "role": "user",
+      "text": "The auth provider is Clerk. Sessions on the web app, and API keys for programmatic access. How do I keep both paths from turning into a mess?"
+    },
+    {
+      "role": "assistant",
+      "text": "One middleware that resolves a principal, two ways to get there. If the request carries a session token, verify it with the provider and load the user. If it carries an API key, hash it, look it up, and load the owning account. Either way the handler receives the same principal shape: account id, user id when present, and a list of scopes. Handlers never look at headers. API keys should be stored hashed with a prefix in the clear for display, created once and shown once, and revocable. Give keys scopes from the start, even if the only ones are read and write, so adding a read only reporting key later is a data change and not a code change."
+    },
+    {
+      "role": "user",
+      "text": "Infrastructure: the primary region is Frankfurt. Most early customers are in Europe. Anything to watch with a single region?"
+    },
+    {
+      "role": "assistant",
+      "text": "Keep the database and the app in the same region, which you have. Object storage for PDFs should be in that region too, or the signed download links will be slow for the people who use them most. Back up to a second region even if you never run compute there. Set your timestamps in UTC everywhere and only convert for display; a single region makes it tempting to assume local time and that assumption breaks the first time a customer in another zone reads a due date. For latency to customers elsewhere, a CDN in front of static assets covers most of it and you can defer multi region compute until you have a real reason."
+    },
+    {
+      "role": "user",
+      "text": "I'm adding a cache for rate limits and idempotency keys. The cache is Redis 7. Anything specific about the idempotency design?"
+    },
+    {
+      "role": "assistant",
+      "text": "Idempotency keys should be scoped to the API key so two customers using the same key string never collide. On the first request store the key with a status of in progress and a short expiry, process, then store the response status and body against the key with a longer expiry such as 24 hours. On a repeat, return the stored response. If a repeat arrives while the first is still in progress, return 409 rather than processing twice. Use SET with NX for the claim so the check and the claim are one atomic step. For the rate limiter, a small Lua script that does the token bucket math atomically is a few lines and avoids race conditions between reads and writes."
+    },
+    {
+      "role": "user",
+      "text": "Compliance question: the log retention is 30 days. Is that reasonable, and what should I avoid logging?"
+    },
+    {
+      "role": "assistant",
+      "text": "Thirty days is a common default and enough for incident work. What matters more is what is in the logs. Never log full API keys, session tokens, webhook payloads that contain card details, or customer email addresses in plain text. Log identifiers instead: account id, invoice id, request id, event id. If you need to debug a payload, store it in a table with tighter access rather than in the log stream. Structured JSON logs with a consistent set of fields let you search quickly and let you redact reliably. Make the redaction a single function used by the logger so a new field cannot leak by accident."
+    },
+    {
+      "role": "user",
+      "text": "Design side: the design tool is Figma and I have a contractor building the web UI. How should the API and UI work be sequenced?"
+    },
+    {
+      "role": "assistant",
+      "text": "Write the API contract first as a short document or an OpenAPI file, agree it with the contractor, and then both of you work against it in parallel. Give them a mock server or a seeded staging environment early so they are not blocked on you. Version the contract in the repo and treat changes to it like schema migrations: announce, add, migrate, then remove. Have a weekly thirty minute review where you look at the real UI against the real API; that is where most mismatches surface, usually around empty states, error messages and pagination. Keep response shapes flat and stable; the UI will hard code them whether you like it or not."
+    },
+    {
+      "role": "user",
+      "text": "For customer contact: the support email is help@ledgerline.app. Should the app send from that address too?"
+    },
+    {
+      "role": "assistant",
+      "text": "Send transactional email from a separate address on a subdomain, such as a no reply or invoices address on a mail subdomain, and keep the support address for humans. That separation protects your support inbox from bounce noise and protects your transactional deliverability from anything that happens on the main domain. Put the support address in the footer of every invoice email so customers know where to write. Set up SPF, DKIM and DMARC for the sending subdomain before the first real email goes out; retrofitting them after a deliverability problem is painful."
+    },
+    {
+      "role": "user",
+      "text": "Tax handling: the default tax rate is 20 percent, and users can set a different rate per invoice or mark a line as exempt. Where does that logic belong?"
+    },
+    {
+      "role": "assistant",
+      "text": "In the domain layer as a pure function: given line items with optional per line exemption, an invoice level rate, and a rounding rule, return tax per line and the total tax. Round per line and sum, or sum and round once; pick one, document it, and test it, because the two methods differ by a cent often enough that customers notice. Store the rate used on the invoice at finalization, not a reference to a settings row, so historical invoices are stable. Keep the default rate in account settings so it is editable without a deploy. If you ever need jurisdiction based rates, that becomes a lookup that produces the rate, and the pure function does not change."
+    },
+    {
+      "role": "user",
+      "text": "There's going to be a mobile app later. The mobile framework is Expo. Anything I should do in the API now to make that easier?"
+    },
+    {
+      "role": "assistant",
+      "text": "Three things. Make every list endpoint cursor paginated from the start, because mobile clients scroll and offset pagination breaks when new invoices arrive. Return timestamps as ISO 8601 strings in UTC, never as epoch numbers or local strings. And design a single lightweight endpoint that returns everything the home screen needs in one round trip: recent invoices, outstanding total, and any alerts. Mobile networks make chatty APIs feel slow in a way a browser on wifi hides. Push notifications and offline drafts can come later; they do not need API changes today."
+    },
+    {
+      "role": "user",
+      "text": "The CDN is Cloudflare, in front of the marketing site and the app. Should the API go through it too?"
+    },
+    {
+      "role": "assistant",
+      "text": "Yes, but with caching off for the API hostname. You still get TLS termination, DDoS protection and a place to block abusive clients, without the risk of a cached response leaking one customer's invoice to another. Set cache rules explicitly so nothing on the API host is ever cached, and pass the client IP through in a header you trust only when the request came from the CDN's ranges. Keep the webhook endpoint on the same host so the payment provider's calls get the same protection. Watch the request body size limit at the edge; PDF uploads, if you ever accept them, may need a higher limit or a direct to storage upload."
+    },
+    {
+      "role": "user",
+      "text": "Webhook reliability: the webhook retry count is 5 with exponential backoff for outgoing webhooks to customers' systems. Does that sound right?"
+    },
+    {
+      "role": "assistant",
+      "text": "Five attempts is fine; the schedule matters more. Something like 1 minute, 5 minutes, 30 minutes, 2 hours, 12 hours covers a customer server that is down for a deploy and one that is down for most of a day. Sign every outgoing payload with a per endpoint secret and include a timestamp so receivers can reject replays. Record every attempt with the response status and a truncated body so customers can see why deliveries failed from their dashboard. After the last failed attempt, mark the endpoint as failing and stop sending until they re-enable it, and email them. Make the sending idempotent from the receiver's side by including an event id they can deduplicate on."
+    },
+    {
+      "role": "user",
+      "text": "For background work, the queue is BullMQ on top of the cache. PDF jobs and webhook deliveries will go through it. Any pitfalls?"
+    },
+    {
+      "role": "assistant",
+      "text": "Set explicit job timeouts and attempt counts per queue; the defaults are not what you want for PDFs versus webhooks. Make every job handler idempotent because at least once delivery is the reality when a worker dies mid job. Put the job payload on a diet: pass ids, not whole invoice objects, and reload inside the handler so the job sees current data. Separate queues for PDF rendering and webhook delivery so a burst of one cannot starve the other. Run workers as a separate process from the API so a memory heavy render cannot take down request handling. And add a small dashboard or at least a metrics endpoint for queue depth and failed counts; a silently growing failed set is the classic surprise."
+    },
+    {
+      "role": "user",
+      "text": "Product analytics: the analytics tool is PostHog. What events are worth tracking in the first version?"
+    },
+    {
+      "role": "assistant",
+      "text": "Track the funnel and nothing else at first: account created, first customer added, first invoice created, first invoice finalized, first invoice paid. Those five events with timestamps tell you where new users drop off. Add invoice sent and payment received as ongoing events so you can see activation over time. Send events from the server, not the browser, for anything tied to money so ad blockers do not distort the numbers. Include the account id as the distinct id and avoid sending email addresses or names as properties. Resist per click UI tracking until you have a question it would answer."
+    },
+    {
+      "role": "user",
+      "text": "Change of plans on hosting. The deploy target is now Fly.io instead of Render. I want to run the worker as a separate machine. What changes?"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted, the deploy target has changed and I will assume the new platform from here on. Practically: you describe two process groups in the app configuration, one for the API with a public service and health checks, one for the worker with no public service. Both run the same image with a different command. Put the database URL and other secrets in the platform's secret store, and keep the region setting matching where the database lives. Health checks on the worker should be a small HTTP endpoint that reports queue connectivity so the platform can restart a wedged worker. Scale the API by machine count and the worker by concurrency inside the process. Set the machine memory for the worker higher than the API since rendering is where memory spikes happen."
+    },
+    {
+      "role": "user",
+      "text": "Pricing decision: the billing model is per seat, with a flat monthly price per user on an account. Does that affect the data model?"
+    },
+    {
+      "role": "assistant",
+      "text": "It adds an account level subscription record and a seat count that must agree with the number of active users. Store the subscription status and current seat count on the account, keep the source of truth for money at the payment provider, and sync via webhooks. Enforce the seat limit at invite time, not at login, so a downgrade never locks out an existing user mid session. Record seat changes with timestamps because proration disputes are about when a seat was added. Keep the free tier or trial as a status value rather than a special case in the code so the checks stay uniform."
+    },
+    {
+      "role": "user",
+      "text": "And the trial length is 14 days from account creation. What happens at the end of a trial?"
+    },
+    {
+      "role": "assistant",
+      "text": "Degrade, do not delete. When a trial ends without a subscription, keep every invoice readable and downloadable, block creating new invoices and sending, and show a clear upgrade path. Send a reminder email three days before and on the day. Run the check in a daily job that flips the account status, and also check on read so a job delay cannot give free days. Store the trial end date on the account at creation rather than computing it each time, so a change to the trial length later only affects new accounts. Make the trial end date visible in the UI from day one."
+    },
+    {
+      "role": "user",
+      "text": "Operational transparency: the status page is status.ledgerline.app. Should it be automated from the health checks?"
+    },
+    {
+      "role": "assistant",
+      "text": "Partly. Automate the component states from external checks that hit your readiness endpoint and a synthetic invoice read from outside the platform, since an internal check cannot see a networking failure between the CDN and your app. Keep incident write ups manual; automated text on a status page reads badly and often says the wrong thing during a partial outage. Host the status page somewhere that does not share infrastructure with the app. Show the last 90 days of uptime per component; customers checking during an incident want to know whether this is normal for you."
+    },
+    {
+      "role": "user",
+      "text": "Data safety: the backup schedule is nightly at 02:00 UTC with point in time recovery enabled on the managed database. Is that enough?"
+    },
+    {
+      "role": "assistant",
+      "text": "It is enough only if you have restored from it. Schedule a monthly restore into a scratch database, run a query that counts invoices and checks a few totals, and record the result. Point in time recovery covers the accidental delete case; the nightly snapshot copied to another region covers the provider outage case. Keep the retention for snapshots at least 30 days. Also back up object storage where the PDFs live, or at least enable versioning, because an invoice document that vanishes is as bad as a lost row. Write the restore steps down in the repo; the person doing it at 3 a.m. will not be you at your best."
+    },
+    {
+      "role": "user",
+      "text": "API evolution: the API version header is X-Ledger-Version and clients send a date. How do I keep that from becoming unmaintainable?"
+    },
+    {
+      "role": "assistant",
+      "text": "Keep the number of behavior changes gated by version tiny and list them in one file. Each entry says the date it took effect, what changed, and points to the transform function that converts the current response into the older shape. Apply transforms in the HTTP layer only; the domain and database never know about versions. Default to the version the account was created with, so old integrations keep working without sending the header. Log the version each request used so you can see when an old version has no traffic and can be retired. And write the changelog entry before writing the code; if you cannot describe the change in two sentences it is probably not a version change but a new endpoint."
+    },
+    {
+      "role": "user",
+      "text": "The feature flag service is Unleash, self hosted. What should be behind flags in an app this size?"
+    },
+    {
+      "role": "assistant",
+      "text": "Only things you want to turn off quickly or roll out gradually: a new PDF template, the outgoing webhooks feature, a new payment flow. Do not put config in flags; that is what environment variables and settings are for. Evaluate flags once per request and pass the result down rather than calling the flag client from deep inside domain code, so tests can set flags as plain booleans. Give every flag an owner and a removal date in its description. A flag older than two months that is fully on in production is dead code with a runtime cost."
+    },
+    {
+      "role": "user",
+      "text": "Container detail: the container base image is node:22-alpine. I've heard mixed things about alpine. Should I stay on it?"
+    },
+    {
+      "role": "assistant",
+      "text": "Stay on it unless something breaks. The known trouble spots are native modules that expect glibc and font rendering. You avoided a browser based renderer, so the main thing to check is that your PDF library's font handling works in the image; bundle the fonts you use and load them by path. Use a multi stage build: install and compile in a full image, copy only the production dependencies and compiled output into the alpine runtime image. Run as a non root user and set NODE_ENV to production in the runtime stage. Pin the image digest, not just the tag, and update it on a schedule."
+    },
+    {
+      "role": "user",
+      "text": "We have a first real customer for early access. The customer pilot is Bramble Studio, a small design agency with three people. How do I make the pilot useful?"
+    },
+    {
+      "role": "assistant",
+      "text": "Agree with them on what a successful pilot looks like before it starts: for example, every invoice they send in a month goes through the product and at least one gets paid through the hosted checkout. Give them a direct channel and answer within a working day. Watch the funnel events for their account specifically. Ask for a short call after week one and after week four, and write down what they say in their words. Do not build features for them during the pilot unless a blocker stops the success criteria; write the requests down and decide after. Offer a discount for the first year in exchange for the feedback and a quote you can use later."
+    },
+    {
+      "role": "user",
+      "text": "Schedule update. The launch date is now November 4. The extra three weeks are for the payments soak and the pilot feedback. Is that a sensible use of the time?"
+    },
+    {
+      "role": "assistant",
+      "text": "Yes, and I'll plan against the new date from here. Use the extra time in this order: a full week of the pilot sending real invoices with you watching every webhook event and job; a pass on the failure paths you have not seen yet such as a declined payment, a refund, and a customer editing an invoice after sending; and then the launch checklist. Freeze new features two weeks before the new date. The soak is only useful if you look at it, so put a daily fifteen minute review on your calendar: failed jobs, 5xx count, webhook delivery failures, and anything the pilot reported."
+    },
+    {
+      "role": "user",
+      "text": "For incidents: the on-call tool is PagerDuty, but for now on-call is just me. What alerts are worth waking up for?"
+    },
+    {
+      "role": "assistant",
+      "text": "Only symptoms customers feel, and only ones you can act on at night. Readiness failing for more than two minutes. Error rate above a few percent for five minutes. Payment webhook processing failures, because a customer paid and cannot see it. Queue depth growing for thirty minutes, which means the worker is down. Everything else, including disk warnings, slow queries and a single failed job, goes to a daily digest. Set the pager to escalate to email after fifteen minutes so a missed page is at least recorded. Review each alert that fired in the weekly review and delete the ones that did not lead to an action."
+    },
+    {
+      "role": "user",
+      "text": "Secrets management: the secret store is Doppler, syncing into the platform's environment. Is there anything I should keep out of it?"
+    },
+    {
+      "role": "assistant",
+      "text": "Keep the payment provider's webhook signing secret and the API key hashing pepper in it, but rotate those two on a fixed schedule and document how. Keep long lived personal tokens out entirely; a service should not run as a person. Use a separate project or environment per stage so a staging leak cannot reach production. Turn on the audit log and look at it monthly. And keep a sealed emergency copy of the production database credentials somewhere that does not depend on the secret store being up, because the day you need to restore is the day everything is broken at once."
+    },
+    {
+      "role": "user",
+      "text": "One limit to settle: the maximum line items per invoice is 200. Enforce in the API or the database?"
+    },
+    {
+      "role": "assistant",
+      "text": "Both, with the same number in one shared constant. The API returns a clear 422 with a message that says the limit, so the UI can show it. The database gets a trigger or a check in the finalization transaction that counts items and rejects the write, so a bug or a direct write cannot create an invoice the renderer will choke on. Test the PDF renderer at exactly 200 items and at the page boundary sizes, because multi page tables are where rendering bugs live. Document the limit in the API reference."
+    },
+    {
+      "role": "user",
+      "text": "Last setup item: the domain registrar is Namecheap and DNS is delegated to the CDN. Anything to lock down?"
+    },
+    {
+      "role": "assistant",
+      "text": "Turn on registrar lock and two factor on the registrar account, and set the renewal to automatic with a card that will not expire this year. Add a calendar reminder a month before expiry regardless. At the DNS provider, enable DNSSEC if the registrar supports it, and restrict who can edit records. Add CAA records so only your certificate authority can issue for the domain. Losing a domain to an expired card is a real failure mode and a boring one, which is why it happens."
+    },
+    {
+      "role": "user",
+      "text": "Now some actual work. I have a bug where finalizing an invoice twice in quick succession creates two numbers. I have the counters table you suggested. What am I likely missing?"
+    },
+    {
+      "role": "assistant",
+      "text": "Most likely the row lock and the invoice status check are not in the same transaction, or the status check happens before the lock. The correct order inside one transaction: lock the counter row with FOR UPDATE, then re-read the invoice status inside the same transaction, and if it is already finalized abort without incrementing. If you check the status first and lock second, two requests can both see draft, then serialize on the counter and both increment. A second guard: a unique constraint on invoice id in a finalizations table, or simply the unique constraint on number plus an UPDATE ... WHERE status = 'draft' that returns zero rows for the loser."
+    },
+    {
+      "role": "user",
+      "text": "That was it, the status read was outside the transaction. Fixed and tested. Next: PDF rendering is producing blank pages on staging but not locally."
+    },
+    {
+      "role": "assistant",
+      "text": "Blank pages on one environment and not another is almost always fonts. Locally the renderer finds a system font; in the container it does not, and it draws nothing rather than failing. Check the worker logs for font warnings, then bundle the font files with the image and register them by absolute path at renderer start. As a guard, have the render job fail loudly if the font file does not exist at startup, so the next time this happens it is an error and not a blank document. A second, rarer cause is a page size or margin that leaves no drawable area; log the page dimensions once per render."
+    },
+    {
+      "role": "user",
+      "text": "Fonts, exactly. The image was missing the font directory in the copy step. Now a question about the checkout flow: the success redirect arrives before the webhook sometimes, so the customer sees an unpaid invoice for a few seconds."
+    },
+    {
+      "role": "assistant",
+      "text": "That ordering is normal and you should design for it rather than fight it. On the success page, show a pending state that says the payment is being confirmed, and poll the invoice status every two seconds for up to a minute. When the webhook lands the status flips and the page updates. Do not mark the invoice paid from the redirect; the webhook remains the only source of truth. If you want to shorten the wait, you can fetch the session from the provider on the success page and show a provisional confirmed state, but still keep the stored status unpaid until the event is processed."
+    },
+    {
+      "role": "user",
+      "text": "Implemented the pending state. Next: the worker is using a lot of memory after a day of running. Rendering jobs complete but the process grows."
+    },
+    {
+      "role": "assistant",
+      "text": "Take a heap snapshot after a few hundred jobs and compare with one at startup; the retained objects will tell you quickly. Common culprits: registering fonts per job instead of once, keeping references to completed job data in an array for logging, and event listeners added per job on a shared object. Set the worker to process a fixed number of jobs and then exit cleanly so the platform restarts it; this is a legitimate strategy while you find the leak, not instead of finding it. Also cap concurrency per worker and make sure each render's output stream is fully consumed and closed."
+    },
+    {
+      "role": "user",
+      "text": "Found it, an event listener per job on the queue client. Removed and memory is flat. New topic: the pilot asked for recurring invoices. Worth doing before launch?"
+    },
+    {
+      "role": "assistant",
+      "text": "Not before launch unless it blocks their success criteria. Recurring invoices touch scheduling, time zones, failed generation handling and notifications, and each of those is a source of support tickets. Write it down as the first post launch feature. If you want to give them something now, a duplicate invoice action that copies line items into a new draft covers most of the value at almost no cost. Ask them whether the duplicate action would get them through the next two months; the answer is usually yes."
+    },
+    {
+      "role": "user",
+      "text": "Duplicate action it is. I'm writing the launch checklist now. What belongs on it that people forget?"
+    },
+    {
+      "role": "assistant",
+      "text": "The boring ones. Verify production email sending with a real send to yourself. Confirm the payment provider account is fully activated for live mode, not just test mode, including payouts. Check that the backup job ran last night and that a restore was tested. Confirm the error tracker receives a deliberate test error from production. Confirm the pager pages your actual phone. Verify DNS TTLs were lowered before any cutover and raised after. Make sure legal pages and the support address are visible. And decide in advance what would make you roll back and who makes that call, which is you, and write it down."
+    },
+    {
+      "role": "user",
+      "text": "One more infrastructure thing: I'd like a staging smoke test that runs after deploy. What should it cover, in about a minute?"
+    },
+    {
+      "role": "assistant",
+      "text": "Create an account with a unique email, create a customer, create an invoice with two line items, finalize it, download the PDF and check that it is non empty and starts with the PDF header bytes, then trigger a test mode payment through the provider's test card flow and wait for the invoice to become paid. Delete the account at the end. That covers auth, database writes, the numbering path, the job system, storage and the webhook path in one run. Fail the deploy if it does not pass. Run it against production as well after deploys, with a dedicated test account that you exclude from analytics."
+    },
+    {
+      "role": "user",
+      "text": "Written and passing. Let me ask a few review questions to check we're aligned before I document the stack. Which database and version are we on?"
+    },
+    {
+      "role": "assistant",
+      "text": "Answering from what you told me earlier in this conversation. If a fact is not in my context I will say so rather than guess."
+    },
+    {
+      "role": "user",
+      "text": "Also, I noticed the contractor added an endpoint that returns all invoices without pagination. Should I block the merge?"
+    },
+    {
+      "role": "assistant",
+      "text": "Yes, block it, politely and with a fix in hand. Point at the pagination convention you agreed on and offer the cursor helper so the change is small. An unpaginated list works fine with ten invoices and takes down the API at ten thousand, and the person who hits that will not be the contractor. If the UI genuinely needs a full list for a dropdown, add a lightweight endpoint that returns ids and names only, capped at a few hundred, rather than exposing full invoice objects."
+    },
+    {
+      "role": "user",
+      "text": "Agreed. I'm also cleaning up the README for the repo. What sections matter for a service like this?"
+    },
+    {
+      "role": "assistant",
+      "text": "What it is in two sentences, how to run it locally in one command, the environment variables with one line each, how to run the tests, how deploys happen, and where to look when something breaks including the dashboards and the runbook. Skip the architecture essay; link to the API contract and the schema file instead. Keep a short decisions section listing the choices you have made and why, one line each, so a new contributor does not reopen settled questions."
+    },
+    {
+      "role": "user",
+      "text": "Good. I'll write the decisions section next. Before that, a quick sanity check on a few settled things."
+    },
+    {
+      "role": "assistant",
+      "text": "Go ahead. I'll answer from the conversation so far and flag anything you never actually told me."
+    },
+    {
+      "role": "user",
+      "text": "The pilot reported that invoice emails land in spam for one of their clients. Where do I start?"
+    },
+    {
+      "role": "assistant",
+      "text": "Check the sending subdomain's SPF, DKIM and DMARC alignment first using the headers of a delivered message; a misaligned DKIM signature is the usual cause. Then look at the content: an email that is only a link and no text scores badly, so include the invoice summary in the body. Warm up the sending domain gradually if it is new. Ask the client to add the sender to their contacts, which is a workaround, not a fix. Finally, check whether the shared sending IP of your email provider has a reputation problem; if so, a dedicated IP or a different provider is the fix."
+    },
+    {
+      "role": "user",
+      "text": "DKIM was misaligned, fixed. I'm also thinking about how the assistant integration in the app will remember customer preferences across sessions. Any design advice?"
+    },
+    {
+      "role": "assistant",
+      "text": "Keep durable preferences in your own database as explicit fields the user can see and edit, not inside a model context or a summary. Extract them when the user states them, confirm in the UI, and inject them into prompts as a short structured block. Anything you cannot show the user in a settings page should not silently shape their experience. Version the extraction prompt and log which facts each session used so you can debug a wrong assumption later."
+    },
+    {
+      "role": "user",
+      "text": "That's the plan. Let's finish the week here. Summarize what's left before the new launch date, in priority order."
+    },
+    {
+      "role": "assistant",
+      "text": "In order: keep the pilot soak running with the daily fifteen minute review; finish and test the duplicate invoice action; complete the launch checklist items you have not ticked, especially the production email send and the live payment activation; run the restore test; freeze features two weeks before the date; and write the decisions section of the README. Everything else, including recurring invoices, waits for after launch."
+    },
+    {
+      "role": "user",
+      "text": "Thanks. Now the review questions for the decisions section."
+    },
+    {
+      "role": "assistant",
+      "text": "Ready. Ask them one at a time and I will answer each from what you told me."
+    }
+  ]
+}

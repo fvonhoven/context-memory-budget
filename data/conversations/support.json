@@ -1,0 +1,332 @@
+{
+  "id": "support",
+  "title": "Northwind Fiber support history for Marcus",
+  "system": "You are a support assistant for Northwind Fiber, a home internet provider. Help the customer with outages, billing, equipment and account changes. Be clear and brief. If a question depends on something the customer never told you, say so.",
+  "pinned": [
+    "Customer: Marcus Reyes",
+    "Account number: NF-88214",
+    "Plan: Fiber 1 Gig"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "text": "Hi, I'm Marcus Reyes, account NF-88214. My internet has been dropping every evening for a week and I'd like to get it looked at. I'm on the Fiber 1 Gig plan."
+    },
+    {
+      "role": "assistant",
+      "text": "Thanks Marcus, I have your account and plan. Evening drops on fiber usually come from one of three places: the optical terminal losing signal, the router rebooting under load, or a wifi channel conflict with neighbors that gets worse when everyone is home. To narrow it down, could you tell me the router model, and whether the lights on the optical terminal change when the drops happen? If you can, note the time of the next drop; the timestamps let us check the line logs on our side."
+    },
+    {
+      "role": "user",
+      "text": "The router model is Nokia G-2425. It's the one you shipped. The light on the terminal stays green during the drops, I checked last night."
+    },
+    {
+      "role": "assistant",
+      "text": "A steady green terminal light during a drop points away from the fiber line and toward the router or wifi. That model has a known issue where the 5 GHz radio restarts when the channel it chose gets congested, which matches an evening pattern. Two things to try tonight: in the router admin page set the 5 GHz channel manually to 36 or 149 instead of auto, and check whether a wired device also loses connection during a drop. If wired stays up, it is wifi; if wired drops too, it is the router itself and we will replace it."
+    },
+    {
+      "role": "user",
+      "text": "Will do. For the record, the service address is 41 Harbor Lane, in case you need to check the line on your side."
+    },
+    {
+      "role": "assistant",
+      "text": "Got it, I have the line logs for that address up. I can see the optical signal has been stable with no errors for the past two weeks, which agrees with the green light. That makes a router or wifi issue much more likely. I'll leave a note on the account so whoever picks this up next sees the same conclusion. Let me know what the manual channel change does tonight."
+    },
+    {
+      "role": "user",
+      "text": "Manual channel helped but it still dropped once around 9 pm, and a wired laptop dropped too. Can we open a ticket?"
+    },
+    {
+      "role": "assistant",
+      "text": "Yes, and a wired drop is the key detail: that means the router itself lost its link, not just wifi. I have opened a ticket for a router replacement and a line check. The ticket number is on your account and I will reference it in everything from here. A replacement router ships by default, but since the line logs are clean I would also like a technician to look at the optical terminal connector, which can be loose enough to pass a signal check and still drop under thermal changes in the evening."
+    },
+    {
+      "role": "user",
+      "text": "Thanks. So I have it written down, the ticket number is 40317. When did the outage history actually start on your end, do you see it?"
+    },
+    {
+      "role": "assistant",
+      "text": "I see the first disconnect events in the router logs uploaded to our side starting about a week ago, which lines up with what you described. I do not see line level errors at any point. I have attached the router logs to the ticket. The next step is scheduling: I can send a technician for the terminal check and bring the replacement router at the same visit, which saves you a shipment. Would a weekday morning or afternoon work better?"
+    },
+    {
+      "role": "user",
+      "text": "The outage start date is March 2, from my notes. Mornings are better for me. Let's do the visit."
+    },
+    {
+      "role": "assistant",
+      "text": "Noted, the start date is on the ticket. The earliest morning slot I have is in a few days. The technician will check the optical terminal, reseat or replace the connector, swap the router for a new unit, and run a speed test on a wired device before leaving. Please make sure someone is home and that the terminal and router are accessible. You will get a text the evening before with a two hour window."
+    },
+    {
+      "role": "user",
+      "text": "The technician visit is March 6, morning slot, as we discussed. Please confirm that's booked."
+    },
+    {
+      "role": "assistant",
+      "text": "Confirmed on the ticket. You will receive a reminder text the evening before with the two hour window. If the drops get worse before then, reply here and I can move it up if a slot opens. In the meantime keep the router on the manual channel, and if it drops again note the time so the technician has the most recent data."
+    },
+    {
+      "role": "user",
+      "text": "In case the technician needs to reach me, the callback number is 555-0142. That's my mobile."
+    },
+    {
+      "role": "assistant",
+      "text": "Added to the ticket as the contact for the visit. The technician will call from a company number about thirty minutes before arrival. If they cannot reach you they will wait ten minutes and then move on, so keep the phone nearby that morning."
+    },
+    {
+      "role": "user",
+      "text": "Also, the preferred contact time is mornings, before noon. Evenings I'm usually not reachable."
+    },
+    {
+      "role": "assistant",
+      "text": "Set on the account. Our outbound calls and any scheduling texts will go out before noon. Automated outage notifications are not subject to that preference since they go out when an outage starts, but everything a person initiates will respect it."
+    },
+    {
+      "role": "user",
+      "text": "While I have you, a billing question. The monthly bill is $79 and I thought the plan was advertised at $69. Why the difference?"
+    },
+    {
+      "role": "assistant",
+      "text": "The advertised figure is the promotional rate for the first twelve months. Your account passed the twelve month mark two cycles ago, at which point it moved to the standard rate, and the $10 step is that change. I can check whether a current promotion applies to your account; existing customers are sometimes eligible when a promo is running. Let me look."
+    },
+    {
+      "role": "user",
+      "text": "Please do. My neighbor mentioned a code. The promo code is SPRING20, if that's still valid."
+    },
+    {
+      "role": "assistant",
+      "text": "That code is valid and it applies to existing customers on the gigabit plan. I have applied it to your account. It takes 20 percent off the standard plan price for six months, starting with the next bill. You will see the discount as a separate line. After six months the bill returns to the standard rate unless another promotion is running at that time."
+    },
+    {
+      "role": "user",
+      "text": "Great. Another thing: the mesh extender is Eero 6, my own. Does it work with the replacement router?"
+    },
+    {
+      "role": "assistant",
+      "text": "Yes. The replacement router is the same model, so the extender setup does not change. The one recommendation is to put the router into bridge mode and let the mesh system handle wifi and routing, which avoids two devices doing the same job and often removes evening congestion on its own. The technician can set bridge mode during the visit if you ask; note it on the ticket or tell them on the day."
+    },
+    {
+      "role": "user",
+      "text": "I also want a static IP for a home server. What does that cost?"
+    },
+    {
+      "role": "assistant",
+      "text": "A static IP is available on your plan as a monthly add on. It is provisioned within a day of ordering and does not require a visit. Once it is active you set the router's WAN to the assigned address, or if you go with bridge mode, your mesh router does that. Say the word and I will add it, and I will confirm the fee on the account before it takes effect."
+    },
+    {
+      "role": "user",
+      "text": "Add it. So we're clear, the static IP fee is $10 a month, as shown on your site."
+    },
+    {
+      "role": "assistant",
+      "text": "Correct, that is the fee on the account now, prorated for the current cycle. You will get an email with the assigned address within a day. Keep in mind that a static IP makes your server reachable from the internet, so make sure the server has its own firewall and that only the ports you need are open."
+    },
+    {
+      "role": "user",
+      "text": "When is the billing date? I want to know when the promo shows up."
+    },
+    {
+      "role": "assistant",
+      "text": "Your bill generates on the same day each month and the payment is drawn three days later. The promo and the static IP add on will both appear on the next bill, with the add on prorated. If the bill looks different from what we discussed, reply here and I will go through it line by line with you."
+    },
+    {
+      "role": "user",
+      "text": "Let me note that down: the billing date is the 15th each month. Okay, moving on. It's March 5 and the router dropped three times last night."
+    },
+    {
+      "role": "assistant",
+      "text": "Thanks for the update. The visit is tomorrow morning, so you are close. I added last night's drop times from the router log to the ticket. If you want to reduce drops tonight, power cycle the terminal and the router together, terminal first, and leave both off for a full minute. That clears a state the terminal can get into, and it sometimes buys a quiet night."
+    },
+    {
+      "role": "user",
+      "text": "The technician had to reschedule. The technician visit is now March 9, still morning. Just confirming you have the change."
+    },
+    {
+      "role": "assistant",
+      "text": "Yes, the visit has moved and the ticket shows the new date. I am sorry for the delay. The same scope applies: terminal connector check, router swap, and a wired speed test before leaving. The reminder text will come the evening before the new date."
+    },
+    {
+      "role": "user",
+      "text": "Visit done, new router installed, connector replaced. The measured download speed is 940 Mbps on the wired test. No drops since."
+    },
+    {
+      "role": "assistant",
+      "text": "That is a healthy result for the gigabit plan; 940 wired is what we expect after overhead. The technician noted the connector was seated loosely, which explains the evening drops as the housing warmed. I will keep the ticket open for a week to make sure the drops do not return, then close it. If anything changes reply here and it reopens."
+    },
+    {
+      "role": "user",
+      "text": "One admin thing while the ticket is open: the email on file is marcus.r@example.com. Please make sure the bills go there."
+    },
+    {
+      "role": "assistant",
+      "text": "Confirmed, that address is on the account for billing and notifications. I have sent a test notification so you can check it arrives; if it is not in your inbox in a few minutes, check the spam folder and mark it as safe so future bills come through."
+    },
+    {
+      "role": "user",
+      "text": "Got the test. Different topic: I'm moving next month. What's the process for moving service?"
+    },
+    {
+      "role": "assistant",
+      "text": "If the new address is in our service area, we schedule a disconnect at the old address and an activation at the new one, ideally on the same day or one day apart. The router and terminal at the new place are provided if the address has never had our service; if it has, the terminal is usually already there. Give me the new address and your move date and I will check availability and book both. Your plan, promo and add ons carry over."
+    },
+    {
+      "role": "user",
+      "text": "The service address is now 9 Cedar Court, effective the first of next month. Please schedule the move."
+    },
+    {
+      "role": "assistant",
+      "text": "Understood, the new address is on the account with the effective date, and I have updated the service address for everything going forward. Availability is good there; the building already has our terminal in the utility closet. I have booked the activation for the morning of the first and the disconnect at the old address for the same afternoon. Bring your router; the terminal at the new place is already in service and just needs to be assigned to your account."
+    },
+    {
+      "role": "user",
+      "text": "Perfect. Will the static IP move with me?"
+    },
+    {
+      "role": "assistant",
+      "text": "Yes. The static IP is attached to the account, not the address, so it stays the same after activation at the new place. You may see a short period after activation where the address is not yet routed; that clears within an hour. If your server is not reachable by the next morning, reply here and I will check the routing."
+    },
+    {
+      "role": "user",
+      "text": "About the week of outages. I was without reliable service for a while. The credit applied is $25 according to my latest bill. Is that the standard amount?"
+    },
+    {
+      "role": "assistant",
+      "text": "That is the standard credit for an intermittent service issue of that length, one third of the monthly rate. Given the reschedule delayed the fix, I have requested an additional goodwill credit and will confirm the amount once it is approved, which usually takes a day. It will appear on the following bill."
+    },
+    {
+      "role": "user",
+      "text": "Thanks. Technical question: I set custom DNS on the router. The DNS setting is 1.1.1.1 for both primary and secondary. Any issue with that?"
+    },
+    {
+      "role": "assistant",
+      "text": "No issue on our side; you are free to use any resolver. Two notes: set a different secondary address so there is a fallback if the primary has an outage, and if you use the mesh in bridge mode set the DNS on the mesh app rather than on our router, since the mesh is what hands addresses to your devices. Our own resolvers remain available if you ever want to switch back."
+    },
+    {
+      "role": "user",
+      "text": "I'll add a secondary. Now, I'm changing email providers. The email on file is now m.reyes@example.net. Please update it and stop sending to the old one."
+    },
+    {
+      "role": "assistant",
+      "text": "Updated. The new address is now the only one on the account for billing and notifications, and the old address has been removed. A test notification is on its way to the new address; please confirm it arrives. The change also updates the login email for the customer portal, so use the new address next time you sign in."
+    },
+    {
+      "role": "user",
+      "text": "Confirmed, got it. Last thing for today: I want to add TV. What packages are there?"
+    },
+    {
+      "role": "assistant",
+      "text": "There are three tiers: a basic streaming package with the main networks, a mid tier with sports, and a full tier with premium channels. All are app based, no set top box, and can be added or removed monthly without changing your internet plan. The basic tier is the one most customers on your plan pick. Tell me which one and I will add it starting with the next bill."
+    },
+    {
+      "role": "user",
+      "text": "The TV package is Stream Basic. Add that one."
+    },
+    {
+      "role": "assistant",
+      "text": "Added, starting with the next bill. You will get an email at the address on file with the app login. The app works on phones, tablets, smart TVs and streaming sticks, and up to three streams at once. If you want to change tiers later it takes effect the next cycle."
+    },
+    {
+      "role": "user",
+      "text": "Back to the home server. I need to open a port for it. Which port forwarding setup do you recommend with the mesh in bridge mode?"
+    },
+    {
+      "role": "assistant",
+      "text": "With the router in bridge mode the mesh system is doing the routing, so the port forward lives in the mesh app, not in our router's admin page. Reserve a fixed local address for the server in the mesh app first, then add the forward rule pointing at that address and the port your service uses. Test from a phone on mobile data rather than from inside the house; a test from the inside will succeed even when the rule is wrong because it never leaves your network. Only open the ports you use, and if the service supports it, put it behind a login and enable automatic updates. If the forward does not work at all, check that our router is really in bridge mode; a second layer of routing is the most common reason a forward silently fails."
+    },
+    {
+      "role": "user",
+      "text": "That worked from mobile data. For billing convenience I'd like autopay. The autopay card ending is 4471. Can you set that up?"
+    },
+    {
+      "role": "assistant",
+      "text": "Autopay is set with that card, drawing three days after each bill generates. You will get an email a day before the draw with the amount, and the bill itself still goes to the address on file so you can review it first. If a payment fails, we retry once after five days and send a notice before any late fee applies. You can change the card or turn autopay off from the portal at any time, and the change takes effect on the next cycle."
+    },
+    {
+      "role": "user",
+      "text": "Does the plan include IPv6? Some of my devices seem to prefer it."
+    },
+    {
+      "role": "assistant",
+      "text": "Yes, IPv6 is on by default for your plan and the terminal hands out a prefix to whatever router is behind it. In bridge mode that is your mesh system, which supports it, so your devices should already be picking up addresses. You can check in the mesh app under network details. There is nothing to configure on our side, and the static IPv4 address you added is unaffected. If a device reports no IPv6 connectivity, the usual cause is the mesh app having the setting off; it is a single toggle."
+    },
+    {
+      "role": "user",
+      "text": "My kids are getting older and I want some content filtering. Is that something you offer or should I do it on the mesh?"
+    },
+    {
+      "role": "assistant",
+      "text": "Do it on the mesh. Our network level filter is a blunt tool that applies to every device on the account and cannot tell a child's tablet from your server. The mesh app lets you group devices by person, set schedules, and pick filter levels per group, and it works when the kids are on wifi and off it if you use its companion app on their phones. Pair it with the resolver you already set, since some resolvers offer a family variant that blocks adult content at the DNS level for the whole house as a second layer. Neither approach is perfect; a conversation is still the main tool."
+    },
+    {
+      "role": "user",
+      "text": "Understood. The wifi speed test shows about 400 Mbps but wired shows 940. Is something wrong?"
+    },
+    {
+      "role": "assistant",
+      "text": "No, that is normal. Wifi speed depends on the device's radio, the distance, walls, and how busy the channel is, and even a good phone in the same room as the mesh node tops out well below a gigabit. The plan is measured at the wired connection, which is where the 940 figure comes from. If you want faster wifi in a specific room, a wired backhaul to the mesh node in that room helps more than anything else. For most uses, 400 on wifi is more than enough; streaming in high definition needs a fraction of that."
+    },
+    {
+      "role": "user",
+      "text": "Good to know. Last technical one: what do the lights on the new router mean? The second one blinks orange sometimes."
+    },
+    {
+      "role": "assistant",
+      "text": "On that model the first light is power, the second is the connection to the terminal, the third is wifi, and the fourth is the wired ports. A blinking orange second light means the router is renegotiating its link with the terminal, which is normal for a few seconds after a restart and a problem if it lasts more than a minute or happens repeatedly. Since you have been stable since the visit, an occasional short blink is nothing to worry about. If you ever see it blink for a sustained period, note the time and reply here and I can pull the terminal log for that window."
+    },
+    {
+      "role": "user",
+      "text": "Thanks, that's reassuring. One question about the old address: will I get a final bill for it?"
+    },
+    {
+      "role": "assistant",
+      "text": "No separate final bill. Because the move was handled as a transfer, the account simply continues, and the next bill covers the whole month with a small proration for the day of the move if the activation and disconnect fell on different days. You will see the new address on the bill header from the next cycle. If the old address appears on any later bill, reply here and I will correct the record."
+    },
+    {
+      "role": "user",
+      "text": "Now that the move is done and everything is set up, I want to review my account with you to make sure the records are right."
+    },
+    {
+      "role": "assistant",
+      "text": "Good idea. I will answer from what you have told me and from this conversation, and I will say so if something was never mentioned."
+    },
+    {
+      "role": "user",
+      "text": "Before the questions: the goodwill credit, did it get approved?"
+    },
+    {
+      "role": "assistant",
+      "text": "Yes, it was approved and will show on the next bill as a separate line alongside the earlier credit. The combined credits cover most of one month at the promotional rate. If it does not appear, reply here and I will escalate."
+    },
+    {
+      "role": "user",
+      "text": "One more thing. Since the move, the wifi in the back bedroom is weak. Any quick fix before I buy another extender?"
+    },
+    {
+      "role": "assistant",
+      "text": "Move the mesh node, not the router. Put the extender halfway between the router and the bedroom, in the open, not in a cabinet or behind a TV. If the mesh app shows a poor backhaul signal, the node is too far. Also make sure the router is not sitting next to the terminal in the utility closet; if it is, run an ethernet cable from the terminal to a central spot and put the router there. That alone usually fixes back bedroom coverage."
+    },
+    {
+      "role": "user",
+      "text": "The closet placement is exactly the problem. I'll move it. Okay, the review questions."
+    },
+    {
+      "role": "assistant",
+      "text": "Go ahead, one at a time."
+    },
+    {
+      "role": "user",
+      "text": "Also, can you note on the account that I'd like paper bills stopped?"
+    },
+    {
+      "role": "assistant",
+      "text": "Done, paperless billing is on and the bill goes to the email on file only. You can turn paper bills back on from the portal at any time."
+    },
+    {
+      "role": "user",
+      "text": "Thanks. Continuing with the review."
+    },
+    {
+      "role": "assistant",
+      "text": "Ready."
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "id": "travel",
+  "title": "Priya plans a trip to Portugal",
+  "system": "You are a travel planning assistant. Help the user plan an itinerary, bookings and logistics. Be specific and practical. If a question depends on something the user never told you, say so.",
+  "pinned": [
+    "Traveler: Priya Natarajan",
+    "Priya is vegetarian",
+    "Home airport: Seattle (SEA)"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "text": "Hi, I'm Priya Natarajan and I'm planning a trip this spring. I fly out of Seattle. I'm vegetarian, which matters for restaurant picks. Can you help me plan this over a few sessions?"
+    },
+    {
+      "role": "assistant",
+      "text": "Happy to, Priya. I'll keep Seattle as your departure airport and vegetarian food as a hard requirement for every restaurant suggestion. To plan well I need a few anchors: where you are going, how long, roughly what you want to spend, when you leave, and who is coming. Give me those as you settle them and I'll build the itinerary around them. A rule I follow for first trips to a place: two bases at most per week, so you spend time in places rather than in transit."
+    },
+    {
+      "role": "user",
+      "text": "The destination is Portugal. I've never been. I like walkable cities, coastline and good food more than museums."
+    },
+    {
+      "role": "assistant",
+      "text": "Portugal fits that well. The classic shape is Lisbon plus Porto with something in between or a day trip out of each. Lisbon is hilly and walkable with a lot of tiled streets and viewpoints, Porto is compact and sits on a river with the wine lodges across the water, and the coast is close to both. For a vegetarian traveler the cities are easy; small towns take a little more planning because the traditional menus lean on fish and pork, but vegetable soups, bean stews and grilled vegetable plates are common and there is a growing set of dedicated vegetarian places in both cities. Tell me the trip length and I'll propose a split."
+    },
+    {
+      "role": "user",
+      "text": "The trip length is 12 days including travel days. I don't want to move hotels more than twice."
+    },
+    {
+      "role": "assistant",
+      "text": "Twelve days with two moves gives you a clean plan: five nights in one city, four in the other, and one night somewhere between if you want a slower stop, or simply five and five with the remaining time eaten by flights. Flying from Seattle you lose most of a day each way with the connection, so count ten full days on the ground. I'd suggest arriving in the south and working north, or the reverse, and flying home from the second city so you do not backtrack. Once you tell me the budget and dates I'll lay out the nights."
+    },
+    {
+      "role": "user",
+      "text": "The total budget is $4,500 for everything including flights, for me. My sister may join and would pay her own way."
+    },
+    {
+      "role": "assistant",
+      "text": "Working with $4,500 all in for one person. A rough split that usually holds for Portugal in spring: flights from the west coast around $900 to $1,200, lodging around $150 a night for a good mid range hotel so about $1,600 for eleven nights, food and drink around $50 a day so $550, transport within the country including a train and some taxis about $200, and activities and a rental car for a few days about $400. That leaves a few hundred as a cushion, which you should keep, because the thing you did not plan for always costs about that much."
+    },
+    {
+      "role": "user",
+      "text": "The departure date is May 3. Coming back on the 14th. Is early May a good time?"
+    },
+    {
+      "role": "assistant",
+      "text": "Early May is one of the best windows. Warm days, cool evenings, the coast is pleasant without being crowded, and prices are below summer. Pack a light layer for the evenings and one rain jacket; Porto in particular gets showers. The only date to watch is a national holiday around the first of the month, but by the third things are back to normal. Book the flights soon; spring fares from the west coast rise noticeably about six weeks out."
+    },
+    {
+      "role": "user",
+      "text": "My sister confirmed. The travel companion is my sister Meera. She eats everything, so restaurant picks should work for both of us."
+    },
+    {
+      "role": "assistant",
+      "text": "Good, two travelers makes taxis and a rental car cheaper per person and opens up shared plates. I'll pick restaurants with strong vegetarian options that also serve meat or fish so Meera has choices. For rooms, a twin or two separate rooms will change the lodging estimate; a twin in a mid range hotel is usually only slightly more than a double, so your per person number should hold or improve. Let me know which city you want to start in and I'll do the day by day."
+    },
+    {
+      "role": "user",
+      "text": "The first city is Lisbon. I'd like to fly into Lisbon and out of Porto."
+    },
+    {
+      "role": "assistant",
+      "text": "That is the right direction: arrive in Lisbon, train north, fly home from Porto, no backtracking. Lisbon day plan for a first visit: day one walk the old town and take a viewpoint at sunset; day two the riverside district with the monastery and the tower, then the waterfront; day three the modern side of the city or a beach afternoon; day four a day trip out; day five a slow morning and the train. For food there are a few fully vegetarian places near the center that do lunch buffets, and most traditional taverns will do a vegetable plate on request. Do you have a hotel in mind, or should I suggest areas?"
+    },
+    {
+      "role": "user",
+      "text": "I booked already. The Lisbon hotel is Hotel Avenida Palace, five nights. It looked central."
+    },
+    {
+      "role": "assistant",
+      "text": "Very central, right at the bottom of the main avenue next to the old town station, so you can walk to almost everything and you are one stop from the trains out of the city. From there the old town viewpoints are a fifteen minute uphill walk, the riverside district is a tram or short train ride, and the airport is about twenty minutes by taxi. Ask for a room away from the square side if you are sensitive to noise. Breakfast there is included and has plenty of vegetarian choices."
+    },
+    {
+      "role": "user",
+      "text": "For getting around outside the cities I'll rent a car for a couple of days. The rental car company is Europcar, picked up in Lisbon."
+    },
+    {
+      "role": "assistant",
+      "text": "A car for a couple of days is a good call for the coast and for a wine region day, and a bad idea inside either city where parking is scarce and the streets are narrow. Pick it up on the morning you leave the city center, not on arrival, so you do not pay for days it sits in a garage. Get a small car; the roads in old towns were built for carts. Automatic transmission costs more and sells out, so book it now if you need one. Check that your credit card's rental coverage applies in Portugal and take photos of the car at pickup."
+    },
+    {
+      "role": "user",
+      "text": "The second city is Porto. I'll take the train up from Lisbon."
+    },
+    {
+      "role": "assistant",
+      "text": "The fast train takes about three hours city center to city center and is far easier than flying. Book it a few weeks ahead for the cheaper fares and pick a morning departure so you arrive for lunch. In Porto, the riverside is the postcard, the old center climbs the hill behind it, and the wine lodges are across the bridge on the south bank. A first day walk: the station's tiled hall, the cathedral terrace, down through the old streets to the river, across the top deck of the bridge for the view, and back along the water. Vegetarian food is easy in the center and there are two or three places I would book ahead."
+    },
+    {
+      "role": "user",
+      "text": "The Porto stay is 4 nights. That leaves one spare night I haven't decided on."
+    },
+    {
+      "role": "assistant",
+      "text": "Five nights in Lisbon and four in Porto leaves one night, which you could spend in a university town about an hour north of Lisbon on the train, or add to Lisbon so the coast day is less rushed, or use as a night in the wine valley east of Porto if you keep the car. My preference for a first visit: give it to the valley. Waking up over the river terraces is one of the better mornings in Europe and it turns the wine day into an overnight rather than a long drive back."
+    },
+    {
+      "role": "user",
+      "text": "Insurance sorted. The travel insurance provider is World Nomads. Does that cover rental car damage too?"
+    },
+    {
+      "role": "assistant",
+      "text": "Typically not, or only with a specific add on; travel medical and trip cancellation are the core of that kind of policy. Read the rental section of your policy document, and separately check whether your credit card covers collision damage abroad, because the rental desk will try to sell you their waiver at pickup at a daily price that adds up. Whatever you decide, decide it before you are standing at the counter. Bring a printed copy of the insurance certificate; some desks ask for it."
+    },
+    {
+      "role": "user",
+      "text": "Flights booked. The airline is TAP Air Portugal with one connection each way. Tickets were $1,050 for me."
+    },
+    {
+      "role": "assistant",
+      "text": "That is within the estimate, so the rest of the budget holds. With a connection on the way out you land in Lisbon in the early afternoon, which is ideal: check in, walk the neighborhood, early dinner, sleep. On the way home from Porto the morning departure means an early taxi; the airport is about half an hour from the center. Add the flights to a calendar with the local times and set a reminder to check in online the day before, since the airline charges for seat selection at the airport on some fares."
+    },
+    {
+      "role": "user",
+      "text": "Speaking of seats, the seat preference is aisle for me. Meera likes the window. Can we get both in the same row?"
+    },
+    {
+      "role": "assistant",
+      "text": "On a three seat row you can, with a stranger in the middle, and that middle seat is the last to fill so you often get the row to yourselves on a spring flight. On the long leg a two seat side section, if the aircraft has one, gives you aisle and window together with nobody between; that is the configuration to look for on the seat map. Select seats as soon as the fare allows; the cheap fares open selection at check in only. Put your aisle preference in your airline profile so it carries to the connection."
+    },
+    {
+      "role": "user",
+      "text": "Let's plan the Lisbon days in detail. What do you suggest for the vegetarian dinners?"
+    },
+    {
+      "role": "assistant",
+      "text": "A pattern for five nights: one fully vegetarian restaurant with a tasting style menu for a nicer evening, two traditional taverns where you order the vegetable soup, the grilled vegetables and a mushroom or bean dish and Meera has the fish, one casual place in the market hall where you each pick from different stalls, and one evening near the viewpoints with small plates and a view. Book the nicer one a week ahead. Lunch is where the vegetarian buffets shine, they are cheap and fast and near the center. Carry a card that says you do not eat meat or fish in Portuguese for the smaller places; it avoids the broth question."
+    },
+    {
+      "role": "user",
+      "text": "The day trip is Sintra. I keep hearing it's crowded. How do we do it well?"
+    },
+    {
+      "role": "assistant",
+      "text": "Go early and go against the flow. Take the first train out, about forty minutes, and head straight to the palace on the hill before the tour buses arrive at ten. Buy the timed tickets online the day before. Then walk down through the gardens instead of taking the shuttle, see the town center for lunch when the crowds are at the top, and finish with the coastal cape by bus or taxi for the cliffs before returning on an evening train. Skip the second palace unless you have a strong interest; one is enough for a day. Wear real shoes, the paths are steep and cobbled."
+    },
+    {
+      "role": "user",
+      "text": "For the wine day out of Porto, the wine region is Douro Valley. We'll drive with the rental car and stay one night there."
+    },
+    {
+      "role": "assistant",
+      "text": "Good use of the spare night. Drive out along the river road rather than the highway; it is slower and it is the point. Plan two estate visits with tastings, one before lunch and one after, and book both since the good ones limit walk ins. Lunch at an estate that does a vegetable focused menu is worth the call ahead. Whoever is not driving tastes; there is a boat option on the river if you would both rather taste. Stay at a small guesthouse on the terraces, and drive back to Porto the next morning to return the car before the rental office closes."
+    },
+    {
+      "role": "user",
+      "text": "Now about money. Should I get euros before leaving or use cards?"
+    },
+    {
+      "role": "assistant",
+      "text": "Cards almost everywhere, and a little cash for small cafes, markets and the odd tip. Get the cash from a bank ATM after you land rather than at the airport exchange desk, and decline the ATM's offer to convert to your home currency, which is a bad rate dressed up as a convenience. Tell your bank the travel dates so nothing gets blocked. Contactless works on the trams and the metro in both cities, so you may not need paper tickets at all."
+    },
+    {
+      "role": "user",
+      "text": "Budget update after booking the hotels. The total budget is now $5,200 because I want a better room in Porto. Still reasonable?"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted, the budget is now $5,200 and I'll plan against that number from here. It is reasonable and it mostly goes to lodging, which is a good place to spend on a trip where you sleep in only two places. With the flights already paid and the Lisbon hotel booked, the remaining spend is the Porto hotel, the valley night, the car, trains, food and activities, and that comfortably fits under the new number with a cushion of a few hundred. Keep a running tally in a note on your phone; it takes ten seconds a day and removes the anxiety."
+    },
+    {
+      "role": "user",
+      "text": "Packing question: what do I need for early May that people forget?"
+    },
+    {
+      "role": "assistant",
+      "text": "A rain jacket that packs small, shoes with grip because the polished cobbles are slippery when wet, a light scarf for churches and cool evenings, a European plug adapter, and a small daypack for the day trips. Sunscreen; the coast sun is stronger than it feels. A refillable bottle, tap water is fine in both cities. If you take any medication bring the prescription. Leave room in the bag; you will bring back tinned goods and ceramics, everyone does."
+    },
+    {
+      "role": "user",
+      "text": "Change on the dates. The departure date is now May 10 instead of May 3, work moved a deadline. Return is the 21st. Do I need to redo anything?"
+    },
+    {
+      "role": "assistant",
+      "text": "Understood, departure is now May 10 and I'll treat the earlier date as replaced. You need to change the flights, which the airline allows for a fee on that fare, and move both hotels and the car, which are usually free to change more than a week out. The itinerary shape does not change at all; every day plan shifts by a week. Two things improve: the valley is greener and warmer, and the coast water is a little less cold. One thing to check: the palace day trip tickets are date specific, so rebook those."
+    },
+    {
+      "role": "user",
+      "text": "All moved. Now phones. The phone plan is Airalo eSIM with a Europe data package. Anything to set up before I leave?"
+    },
+    {
+      "role": "assistant",
+      "text": "Install and activate the eSIM at home while you have wifi, but do not switch data over to it until you land. Keep your home line active for text messages so bank verification codes arrive, and turn off data roaming on that line so you do not pay twice. Download offline maps for both cities and the valley, and the train app. Save the hotels and the rental office as favorites. If you plan to use the phone for navigation in the car, bring a mount and a cable; the rental will not have one."
+    },
+    {
+      "role": "user",
+      "text": "Let's plan Porto in detail now. Four nights, one of them in the valley, so three in the city. What's the shape?"
+    },
+    {
+      "role": "assistant",
+      "text": "Day one, arrive by train at lunch, check in, the riverside walk I described, dinner in the old center. Day two, the bookshop and the churches in the morning, cross the river for a lodge tour and tasting in the afternoon, sunset from the south bank, dinner by the water. Day three, pick up the car, drive to the valley, two estate visits, overnight on the terraces. Day four, drive back, return the car, a beach afternoon at the mouth of the river by tram, last dinner. Day five, early flight. The vegetarian dinners in Porto are easy; I would book one place in the arts district that does a set menu."
+    },
+    {
+      "role": "user",
+      "text": "I booked the Porto hotel. The Porto hotel is The Yeatman, across the river with the view. Splurge, but it's the reason the budget went up."
+    },
+    {
+      "role": "assistant",
+      "text": "A good splurge, the view over the old town from the south bank is the one everyone photographs and you will have it from the room. Two practical notes: it is on the wine lodge side, so a lodge tasting is a walk rather than a crossing, and the walk to the old center is down and then up over the bridge, about twenty minutes, or a short taxi. The restaurant there can do a full vegetarian tasting menu if you tell them at booking. Ask for an upper floor and an early check in since you arrive at lunch."
+    },
+    {
+      "role": "user",
+      "text": "Rental car change: the rental car company is now Sixt instead of Europcar, because they had an automatic available for the valley days and the first one didn't. Picked up in Porto."
+    },
+    {
+      "role": "assistant",
+      "text": "Noted, the car is now with the new company and picked up in Porto rather than Lisbon, which actually simplifies the plan: no car in Lisbon at all, the train north as planned, then the car only for the valley days. Confirm the pickup location is the city office and not the airport, check the return time against your last day, and note that automatic transmission cars are usually a size larger, so parking in the valley villages takes a little more care. Bring the booking confirmation with the price on it; desks sometimes quote a different figure."
+    },
+    {
+      "role": "user",
+      "text": "What about tipping and etiquette I should know?"
+    },
+    {
+      "role": "assistant",
+      "text": "Tipping is modest: round up in cafes, leave five to ten percent in restaurants for good service, nothing expected in taxis beyond rounding. Greet with a good morning or good afternoon when entering shops; it is noticed. Dinner is late, restaurants fill after eight. The bread and olives brought to the table are charged if you eat them, so send them back if you do not want them. Keep your voice down on public transport. Learn thank you and please; the effort is appreciated even when everyone answers in English."
+    },
+    {
+      "role": "user",
+      "text": "One more booking: the return flight number is TP 267 from Porto, early morning. Should we stay near the airport the last night?"
+    },
+    {
+      "role": "assistant",
+      "text": "No, stay in the city and take a taxi. The airport is about thirty minutes from the south bank at that hour with no traffic, and a taxi is cheap enough. Book it the night before through the hotel so it is waiting. Check in online the day before and travel with hand luggage if you can; the early flights have short lines but a checked bag adds the risk of a missed connection on the way home. Have breakfast at the airport; the hotel will not be serving that early."
+    },
+    {
+      "role": "user",
+      "text": "Let's think about the coast day in Lisbon. Beach or cliffs?"
+    },
+    {
+      "role": "assistant",
+      "text": "Both, in one loop. Train along the river to the beach town at the end of the line, about forty minutes, swim or walk the promenade, lunch there, then a bus or taxi along the coast road to the cliffs and the lighthouse, and back to the city by the same train from the same town. Go on a weekday; the weekend crowds are local families and the train is packed. The water is cold in May, so this is a sit on the sand and dip your feet day rather than a swim day, unless you are brave."
+    },
+    {
+      "role": "user",
+      "text": "Good. I've been keeping the tally and we're on track. What about a cooking class? Meera wants to do one."
+    },
+    {
+      "role": "assistant",
+      "text": "There are a few in Lisbon that run a vegetarian version on request, usually a market visit followed by cooking three dishes and eating them together. Book for the afternoon of a lighter day, such as the day after the palace trip, so it is not stacked on a long walking day. Tell them about the vegetarian requirement at booking, not on arrival. It also solves one dinner, which helps the food budget."
+    },
+    {
+      "role": "user",
+      "text": "Booked one for the Lisbon leg. Now, a practical question: what's the best way to get from the Lisbon airport to the hotel?"
+    },
+    {
+      "role": "assistant",
+      "text": "Taxi or a ride app; the metro works but involves a change and stairs with bags after a long flight. Fixed price taxis to the center are posted at the rank; expect around twenty minutes. Have the hotel name and street written down for the driver. If you land in the afternoon as planned, the traffic is fine. Your first walk from the hotel should be flat: along the avenue and down to the river square, then dinner nearby, and the hills can wait for the morning."
+    },
+    {
+      "role": "user",
+      "text": "Let me check a few things with you before I write the final plan for Meera."
+    },
+    {
+      "role": "assistant",
+      "text": "Go ahead. I'll answer from what you have told me so far and say clearly if something was never decided."
+    },
+    {
+      "role": "user",
+      "text": "Meera asked whether we need to book the tram in Lisbon or just show up."
+    },
+    {
+      "role": "assistant",
+      "text": "Just show up, but go early or late. The famous tram line is a commuter line that tourists fill by mid morning; ride it before nine or after six and you will get a seat and see the neighborhoods rather than the back of someone's head. Use contactless at the reader. If the line is long, the same route is walkable with better views."
+    },
+    {
+      "role": "user",
+      "text": "What's a good day for the palace day trip given the new dates?"
+    },
+    {
+      "role": "assistant",
+      "text": "Pick a weekday early in the Lisbon stay so you are fresh for the hills, and check the forecast the night before since the palace is on a hill that sits in cloud on grey days. The day after arrival is too soon; the third day works well. Rebook the timed palace tickets for that date now that the dates have moved."
+    },
+    {
+      "role": "user",
+      "text": "I'll do the third day. Any final word on luggage for the train between the cities?"
+    },
+    {
+      "role": "assistant",
+      "text": "There is space above the seats and at the end of each carriage for larger bags; you do not need to book luggage. Arrive fifteen minutes early to find the carriage. Keep valuables with you. The ride is along the river for a stretch, so sit on the left side going north for the view."
+    },
+    {
+      "role": "user",
+      "text": "Great. Now the check questions for the plan."
+    },
+    {
+      "role": "assistant",
+      "text": "Ready when you are. One at a time and I will answer each from the conversation so far."
+    },
+    {
+      "role": "user",
+      "text": "One more thought while I have you: is there anything in Porto I should book ahead that I haven't mentioned?"
+    },
+    {
+      "role": "assistant",
+      "text": "The bookshop needs a timed ticket, the lodge tour you want most fills a few days ahead in spring, and the dinner at your hotel restaurant should be reserved a week out with the vegetarian menu noted. Everything else in Porto is walk up. For the valley, both estate visits and the guesthouse, which you have covered."
+    },
+    {
+      "role": "user",
+      "text": "Thanks. Continuing with the checks."
+    },
+    {
+      "role": "assistant",
+      "text": "Go on."
+    }
+  ]
+}
